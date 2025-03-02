@@ -1,11 +1,14 @@
 import "./App.css";
+// import styles from "./main.css";
 
 function App() {
-  const img = "IziBest-logo1.png";
+  const image = "IziBest-logo1.png";
   return (
     <>
-      <img src={img} />
-      <div>I Love You Baby My Queen and More</div>
+      <img style={{ width: "100px" }} src={image} />
+      <div style={{ marginLeft: "-100px" }}>
+        I Love You Baby, Welcome Back to Abuja...
+      </div>
     </>
   );
 }

@@ -14,10 +14,10 @@ function Logo() {
       <div
         style={{
           marginTop: "-40px",
-          marginLeft: "85px",
+          marginLeft: "90px",
           color: "blue",
-          fontStyle: "bold",
-          fontFamily: "cursive",
+          fontStyle: "italic",
+          fontFamily: "san-sariff",
         }}
       >
         IZIBEST LIFESTYLE

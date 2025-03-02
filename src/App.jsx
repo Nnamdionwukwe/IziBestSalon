@@ -5,7 +5,10 @@ function App() {
   const image = "IziBest-logo1.png";
   return (
     <div style={{ display: "", justifyItems: "center" }}>
-      <img style={{ width: "100px" }} src={image} />
+      <img
+        style={{ width: "100px", display: "flex", justifyContent: "center" }}
+        src={image}
+      />
       <div style={{ marginLeft: "" }}>
         <p>
           ❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤

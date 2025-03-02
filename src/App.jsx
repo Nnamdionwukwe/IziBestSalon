@@ -9,6 +9,8 @@ function App() {
         style={{ width: "100px", display: "flex", justifyContent: "center" }}
         src={image}
       />
+
+      <p>MY LITTLE PRINCESS scroll down to have all my love for you......</p>
       <div style={{ marginLeft: "" }}>
         <p>
           ❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤

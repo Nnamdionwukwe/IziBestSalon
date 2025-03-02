@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   const image = "IziBest-logo1.png";
   return (
-    <>
+    <div style={{ display: "", justifyItems: "center" }}>
       <img style={{ width: "100px" }} src={image} />
       <div style={{ marginLeft: "" }}>
         <p>
@@ -19,7 +19,9 @@ function App() {
           ❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤
           ❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤
         </p>
-        I Love You Baby, Welcome Back to Abuja...
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          I Love You Baby, Welcome Back to Abuja...
+        </div>
         <p>
           ❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤
           ❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤
@@ -33,7 +35,7 @@ function App() {
           ❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤
         </p>
       </div>
-    </>
+    </div>
   );
 }
 

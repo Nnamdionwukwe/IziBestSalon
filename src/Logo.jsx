@@ -14,7 +14,7 @@ function Logo() {
       <div
         style={{
           marginTop: "-40px",
-          marginLeft: "90px",
+          marginLeft: "95px",
           color: "gray",
           fontStyle: "italic",
           fontFamily: "san-sariff",

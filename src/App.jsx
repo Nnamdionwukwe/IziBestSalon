@@ -44,7 +44,7 @@ function App() {
 
         <p>
           Listen to this song on your way to the house, PHOTOGRAPH by Ed Sheeran
-          & AS IT WAS by Harry Styles
+          & AS IT WAS by Harry Styles...
         </p>
       </div>
     </div>

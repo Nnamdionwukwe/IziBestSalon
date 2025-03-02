@@ -12,7 +12,7 @@ function App() {
         />
       </div>
 
-      <p>MY LITTLE PRINCESS scroll down to have all my love for you......</p>
+      <p>MY LITTLE PRINCESS scroll down to feel all my love for you......</p>
       <div style={{ marginLeft: "" }}>
         <p>
           ❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤

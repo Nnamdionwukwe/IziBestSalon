@@ -16,7 +16,7 @@ function Logo() {
           marginTop: "-40px",
           marginLeft: "85px",
           color: "gray",
-          fontStyle: "",
+          fontStyle: "bold",
           fontFamily: "cursive",
         }}
       >

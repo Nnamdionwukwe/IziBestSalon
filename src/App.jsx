@@ -5,10 +5,12 @@ function App() {
   const image = "IziBest-logo1.png";
   return (
     <div style={{ display: "", justifyItems: "center" }}>
-      <img
-        style={{ width: "100px", display: "flex", justifyContent: "center" }}
-        src={image}
-      />
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <img
+          style={{ width: "100px", display: "flex", justifyContent: "center" }}
+          src={image}
+        />
+      </div>
 
       <p>MY LITTLE PRINCESS scroll down to have all my love for you......</p>
       <div style={{ marginLeft: "" }}>
@@ -38,6 +40,10 @@ function App() {
           ❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤
           ❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤
           ❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤❤
+        </p>
+
+        <p>
+          Listen to this song on way to the house, PHOTOGRAPH by Ed Sheeran{" "}
         </p>
       </div>
     </div>

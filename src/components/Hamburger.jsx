@@ -14,7 +14,16 @@ export default function Hamburger() {
         <>
           <i className="fa fa-times" aria-hidden="true"></i>
           <div className={styles.nav}>
-            <p>Hello</p>
+            <div className={styles.navSub}>
+              <div>
+                <p>Home</p>
+                <p>Services ></p>
+                <p>About ></p>
+                <p>Promotions</p>
+                <p>Lookbook</p>
+                <p>Contacts</p>
+              </div>
+            </div>
           </div>
         </>
       )}

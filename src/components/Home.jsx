@@ -8,6 +8,7 @@ export default function Home() {
   return (
     <div className={styles.main}>
       <NavBar />
+
       <div className={styles.mainSub}>
         <img className={styles.logo} src={image} />
 

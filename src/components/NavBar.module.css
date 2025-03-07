@@ -3,5 +3,10 @@
   left: 0;
   top: 0;
   bottom: 0;
+
+  background-color: rgb(255, 251, 251);
+}
+
+.navBar:hover {
   background-color: rgb(250, 247, 247);
 }

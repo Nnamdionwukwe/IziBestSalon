@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className={styles.main}>
       <NavBar />
-      <div>
+      <div className={styles.mainSub}>
         <img className={styles.logo} src={image} />
 
         <div className={styles.mainDiv}>

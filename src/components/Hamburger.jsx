@@ -13,7 +13,7 @@ export default function Hamburger() {
       ) : (
         <>
           <i className="fa fa-times" aria-hidden="true"></i>
-          <div>
+          <div className={styles.nav}>
             <p>Hello</p>
           </div>
         </>

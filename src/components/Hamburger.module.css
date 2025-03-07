@@ -3,5 +3,17 @@
     font-size: 25px;
     margin-left: 20px;
     margin-top: 10px;
+    width: 50px;
+  }
+
+  .nav {
+    position: fixed;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 400px;
   }
 }

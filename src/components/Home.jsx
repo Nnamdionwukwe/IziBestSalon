@@ -9,9 +9,7 @@ export default function Home() {
     <div className={styles.main}>
       <NavBar />
       <div>
-        <div>
-          <img className={styles.logo} src={image} />
-        </div>
+        <img className={styles.logo} src={image} />
       </div>
       <div className={styles.mainDiv}>
         <div className={styles.iziBest}>

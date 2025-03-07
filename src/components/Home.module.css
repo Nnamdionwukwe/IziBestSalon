@@ -1,0 +1,42 @@
+@media screen and (min-width: 20px) {
+  .main {
+    background-color: rgb(255, 251, 251);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    background-origin: content-box;
+    box-sizing: border;
+    padding: 10px;
+    background-image: url("salon-logo.jpg");
+    margin: -8px;
+    height: 500px;
+  }
+
+  .mainDiv {
+    margin-top: 250px;
+  }
+
+  .iziBest {
+    display: flex;
+    justify-content: center;
+    width: 320px;
+    font-style: italic;
+    color: rgb(97, 97, 97);
+  }
+
+  .today {
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
+    margin-top: -15px;
+    font-size: 24px;
+    width: 350px;
+    color: rgb(66, 66, 66);
+  }
+}
+
+@media screen and (min-width: 577px) {
+}
+
+@media screen and (min-width: 768px) {
+}

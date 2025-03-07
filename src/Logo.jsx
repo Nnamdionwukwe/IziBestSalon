@@ -5,23 +5,21 @@ function Logo() {
     borderRadius: "100%",
   };
 
+  const style = {
+    marginTop: "-40px",
+    marginLeft: "95px",
+    color: "gray",
+    fontStyle: "italic",
+    fontFamily: "san-sariff",
+  };
+
   return (
     <div>
       <div>
         <img style={styles} src={image} />
       </div>
 
-      <div
-        style={{
-          marginTop: "-40px",
-          marginLeft: "95px",
-          color: "gray",
-          fontStyle: "italic",
-          fontFamily: "san-sariff",
-        }}
-      >
-        IZIBEST LIFESTYLE
-      </div>
+      <div style={style}>IZIBEST LIFESTYLE</div>
     </div>
   );
 }

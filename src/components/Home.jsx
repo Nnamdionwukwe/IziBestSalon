@@ -1,10 +1,18 @@
 import NavBar from "./NavBar";
 import styles from "./Home.module.css";
+import SalonLogo from "./SalonLogo";
 
 export default function Home() {
+  const image = "salon-logo.jpg";
+
   return (
     <div className={styles.main}>
       <NavBar />
+      <div>
+        <div>
+          <img className={styles.logo} src={image} />
+        </div>
+      </div>
       <div className={styles.mainDiv}>
         <div className={styles.iziBest}>
           <p>EXPERIENCE IZI LIFESTYLE </p>

@@ -9,6 +9,11 @@
     height: 500px;
   }
 
+  .logo {
+    margin-top: 5px;
+    width: 560px;
+  }
+
   .mainDiv {
     margin-top: 250px;
   }

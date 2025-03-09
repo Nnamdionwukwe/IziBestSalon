@@ -28,7 +28,7 @@ export default function Home() {
             <div className={styles.today}>
               <p>
                 Today everyone need a little time away. Imagine an entire day
-                just for you... Leave refreshed and renewed!
+                just for you... Leave stunning and renewed!
               </p>
             </div>
           </div>

@@ -55,7 +55,7 @@ export default function Home() {
 
       <div className={styles.lifeStytle}>
         <div className={styles.best}>
-          <h5>THE IZIBEST LIFESTYLE DIFFERENCE</h5>
+          <h5>THE IZI LIFESTYLE DIFFERENCE</h5>
         </div>
 
         <div className={styles.best1}>

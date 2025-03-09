@@ -27,11 +27,13 @@ export default function Approach() {
       <div className={styles.approachDiv} onClick={handleClose1}>
         <div>
           <div>
-            <p className={styles.one}>01</p>
+            <p className={isOpen1 ? styles.one : styles.general1}>01</p>
           </div>
 
           <div>
-            <p className={styles.innovation}>INNOVATION</p>
+            <p className={isOpen1 ? styles.innovation : styles.general2}>
+              INNOVATION
+            </p>
           </div>
         </div>
 
@@ -58,11 +60,13 @@ export default function Approach() {
       <div className={styles.approachDiv} onClick={handleClose2}>
         <div>
           <div>
-            <p className={styles.one}>02</p>
+            <p className={isOpen2 ? styles.one : styles.general1}>02</p>
           </div>
 
           <div>
-            <p className={styles.innovation}>PRECISION</p>
+            <p className={isOpen2 ? styles.innovation : styles.general2}>
+              PRECISION
+            </p>
           </div>
         </div>
 
@@ -90,11 +94,13 @@ export default function Approach() {
       <div className={styles.approachDiv} onClick={handleClose3}>
         <div>
           <div>
-            <p className={styles.one}>03</p>
+            <p className={isOpen3 ? styles.one : styles.general1}>03</p>
           </div>
 
           <div>
-            <p className={styles.innovation}>PERFECTION</p>
+            <p className={isOpen3 ? styles.innovation : styles.general2}>
+              PERFECTION
+            </p>
           </div>
         </div>
 

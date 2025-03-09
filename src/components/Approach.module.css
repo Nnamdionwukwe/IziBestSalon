@@ -38,3 +38,17 @@
 .const4 {
   color: rgb(45, 45, 45);
 }
+
+.general1 {
+  color: rgb(181, 179, 179);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 32px;
+  margin-bottom: -5px;
+}
+
+.general2 {
+  color: rgb(181, 179, 179);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  margin-bottom: -5px;
+}

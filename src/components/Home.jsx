@@ -103,6 +103,25 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <div>
+        <div className={styles.come}>
+          <p className={styles.come1}>
+            COME AND ENJOY THE ULTIMATE PAMPERING EXPERIENCE, REJUVENATE YOUR
+            HAIR AND TRANSFORM YOUR LOOK IN OUR RELAXING ENVIRONMENT WITH EVERY
+            COMFORT YOU MAY NEED. GIVE THE GIFT OF RELAXATION OR SHARE YOUR
+            SPECIAL DAY WITH FAVORITE FRIENDS & FAMILY.
+          </p>
+
+          <p className={styles.come2}></p>
+
+          <p className={styles.come3}>
+            Izi lifestyle goes far beyond hair transformation, indulgence and
+            style. Our friendly, experienced and gracious service awaits you.
+            Join us.
+          </p>
+        </div>
+      </div>
     </div>
   );
 }

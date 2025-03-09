@@ -60,9 +60,9 @@ export default function Home() {
 
         <div className={styles.best1}>
           <p>
-            IziBest Lifestyle Salon offers a tranquil and transformational hair
-            styles and braids in luxury enviroment, allowing you to be whisked
-            away, completely uniterrupted by any distractions.
+            IziBest Salon offers a tranquil and transformational hair styles and
+            braids in a luxury enviroment, allowing you to be whisked away,
+            completely uniterrupted by any distractions.
           </p>
         </div>
 

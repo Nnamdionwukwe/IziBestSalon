@@ -1,7 +1,10 @@
 @media screen and (min-width: 320px) {
   .mainMain {
-    background-color: rgb(255, 251, 251);
+    /* background-color: rgb(255, 251, 251); */
+
+    background-color: blue;
     margin: px;
+    width: 100%;
   }
 
   .main {

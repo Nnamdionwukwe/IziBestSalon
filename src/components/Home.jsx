@@ -14,7 +14,7 @@ export default function Home() {
 
   const image8 = "cute1.jpg";
   const image9 = "cute2.jpg";
-  const image10 = "cute3.webp";
+  const image10 = "cute3.jpg";
   const image11 = "cute4.jpg";
 
   return (

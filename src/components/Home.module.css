@@ -1,12 +1,9 @@
 @media screen and (min-width: 320px) {
   .mainMain {
-    /* background-color: rgb(255, 251, 251); */
-
-    background-color: blue;
   }
 
   .main {
-    background-color: red;
+    background-color: rgb(255, 251, 251);
     height: 500px;
     width: 100%;
   }

@@ -13,7 +13,7 @@ export default function Home() {
   const image7 = "06.svg";
 
   return (
-    <div>
+    <div className={styles.mainMain}>
       <div className={styles.main}>
         <NavBar />
 

@@ -14,9 +14,9 @@ export default function Home() {
 
   return (
     <div className={styles.mainMain}>
-      <div className={styles.main}>
-        <NavBar />
+      <NavBar />
 
+      <div className={styles.main}>
         <div className={styles.mainSub}>
           <img className={styles.logo} src={image} />
 

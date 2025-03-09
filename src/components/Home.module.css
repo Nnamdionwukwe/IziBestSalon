@@ -20,7 +20,7 @@
   .iziBest {
     display: flex;
     justify-content: center;
-    width: 340px;
+    width: 380px;
     font-style: italic;
     color: rgb(97, 97, 97);
   }
@@ -28,10 +28,10 @@
   .today {
     display: flex;
     justify-content: center;
-    margin-left: 70px;
+    margin-left: 90px;
     margin-top: -15px;
     font-size: 24px;
-    width: 350px;
+    width: 330px;
     color: rgb(66, 66, 66);
   }
 

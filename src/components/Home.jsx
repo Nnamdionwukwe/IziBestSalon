@@ -1,5 +1,6 @@
 import NavBar from "./NavBar";
 import styles from "./Home.module.css";
+import Approach from "./Approach";
 
 export default function Home() {
   const image = "salon-logo.jpg";
@@ -143,6 +144,14 @@ export default function Home() {
           <img src={image11} />
         </div>
       </div>
+
+      <div>
+        <p className={styles.our}>OUR APPROACH</p>
+
+        <p className={styles.come5}></p>
+      </div>
+
+      <Approach />
     </div>
   );
 }

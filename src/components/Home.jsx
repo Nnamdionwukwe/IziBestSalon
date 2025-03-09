@@ -12,6 +12,11 @@ export default function Home() {
   const image6 = "01.svg";
   const image7 = "06.svg";
 
+  const image8 = "cute1.jpg";
+  const image9 = "cute2.jpg";
+  const image10 = "cute3.webp";
+  const image11 = "cute4.jpg";
+
   return (
     <div className={styles.mainMain}>
       <NavBar />
@@ -120,6 +125,22 @@ export default function Home() {
             style. Our friendly, experienced and gracious service awaits you.
             Join us.
           </p>
+        </div>
+
+        <div className={styles.hair}>
+          <img src={image8} />
+        </div>
+
+        <div className={styles.hair}>
+          <img src={image9} />
+        </div>
+
+        <div className={styles.hair}>
+          <img src={image10} />
+        </div>
+
+        <div className={styles.hair}>
+          <img src={image11} />
         </div>
       </div>
     </div>

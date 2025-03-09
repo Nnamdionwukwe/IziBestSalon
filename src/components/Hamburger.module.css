@@ -1,7 +1,7 @@
 @media screen and (min-width: 20px) {
   .ham i {
-    font-size: 25px;
-    margin-left: 20px;
+    font-size: 30px;
+    margin-left: 29px;
     margin-top: 10px;
     width: 50px;
   }
@@ -27,5 +27,11 @@
     height: 85%;
     margin-right: 105px;
     background-color: rgb(44, 44, 44);
+  }
+}
+
+@media screen and (max-height: 650px) {
+  .ham i {
+    color: ;
   }
 }

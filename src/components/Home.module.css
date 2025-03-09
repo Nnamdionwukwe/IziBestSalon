@@ -3,13 +3,10 @@
     /* background-color: rgb(255, 251, 251); */
 
     background-color: blue;
-    margin: px;
-    width: 100%;
   }
 
   .main {
     background-color: red;
-    margin: px;
     height: 500px;
     width: 100%;
   }

@@ -6,7 +6,7 @@ export default function IziDetails() {
   return (
     <div className={styles.main}>
       <div className={styles.imgDiv}>
-        <div className={styles.para}>
+        <div className={styles.paraDiv}>
           <p>
             Izi Lifestyle Salon owner on family ties, her passion for style, and
             making people look and feel thier absolute best...

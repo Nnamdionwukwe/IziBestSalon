@@ -2,13 +2,15 @@
 }
 
 .imgDiv {
+  position: relative;
 }
 
-.para {
+.paraDiv {
+  position: absolute;
 }
 
 .img {
-  width: 460px;
+  width: 350px;
   height: 600px;
   object-fit: co;
 }

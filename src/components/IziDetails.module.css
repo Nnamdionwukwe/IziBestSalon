@@ -4,6 +4,7 @@
 
 .imgDiv {
   position: relative;
+  background-color: rgb(30, 30, 30);
 }
 
 .paraDiv {
@@ -17,6 +18,7 @@
   font-size: 28px;
   padding-left: 40px;
   padding-top: 60px;
+  padding-right: 40px;
   margin-bottom: -5px;
 }
 
@@ -24,12 +26,13 @@
   font-size: 16px;
   padding-left: 40px;
   padding-top: 60px;
+  padding-right: 40px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .img {
   width: 220px;
-  height: 880px;
+  height: 1100px;
   object-fit: cover;
 }
 

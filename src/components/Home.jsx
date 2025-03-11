@@ -65,7 +65,7 @@ export default function Home() {
         </div>
 
         <div className={styles.best1}>
-          <p>
+          <p className={styles.iconP}>
             IziBest Salon offers a tranquil and transformational hair styles and
             braids in a luxury enviroment, allowing you to be whisked away,
             completely uniterrupted by any distractions.
@@ -77,7 +77,7 @@ export default function Home() {
 
           <div>INNOVATION</div>
           <div>
-            <p>
+            <p className={styles.iconP}>
               From our roots to yours, we're driven by unceasing imagination
               that pushes us to lead the industry with innovative methods.
             </p>
@@ -89,7 +89,7 @@ export default function Home() {
 
           <div>PRECISION</div>
           <div>
-            <p>
+            <p className={styles.iconP}>
               Our team of stylists are known for their attention to detail and
               unmatched precision, leading you to the perfect look.
             </p>
@@ -101,7 +101,7 @@ export default function Home() {
 
           <div>PERFECTION</div>
           <div>
-            <p>
+            <p className={styles.iconP}>
               IziBest team of experts offer you the best practices and
               philosophies anywhere, so you can create greater balance in your
               life and feel your very best.

@@ -13,7 +13,9 @@ export default function IziDetails() {
           </p>
         </div>
 
-        <img className={styles.img} src={image} />
+        <div className={styles.image}>
+          <img className={styles.img} src={image} />
+        </div>
       </div>
     </div>
   );

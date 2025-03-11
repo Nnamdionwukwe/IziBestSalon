@@ -1,6 +1,7 @@
 import NavBar from "./NavBar";
 import styles from "./Home.module.css";
 import Approach from "./Approach";
+import IziDetails from "./IziDetails";
 
 export default function Home() {
   const image = "salon-logo.jpg";
@@ -152,6 +153,8 @@ export default function Home() {
       </div>
 
       <Approach />
+
+      <IziDetails />
     </div>
   );
 }

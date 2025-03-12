@@ -13,10 +13,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
+  background-color: rgb(37, 36, 36);
   color: white;
   height: 200px;
   margin-top: -5px;
+}
+
+.mainSub:hover {
+  background-color: rgb(109, 80, 26);
 }
 
 .mainSub p {

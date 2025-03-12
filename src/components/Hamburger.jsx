@@ -1,5 +1,6 @@
 import { useState } from "react";
 import styles from "./Hamburger.module.css";
+import { Link } from "react-router-dom";
 
 export default function Hamburger() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +19,9 @@ export default function Hamburger() {
         <div className={styles.nav}>
           <div className={styles.navSub}>
             <div>
-              <h4 className={styles.home}>Home</h4>
+              <Link className={styles.home} to="/HomePage">
+                <h4 className={styles.home}>Home</h4>
+              </Link>
 
               <div className={styles.arrowDiv}>
                 <h4>Services</h4>

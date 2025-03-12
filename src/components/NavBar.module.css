@@ -6,6 +6,20 @@
   z-index: 5;
 }
 
+.homeNavBar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 5;
+  padding-right: 10px;
+  padding-top: 40px;
+}
+
 .navBar:hover {
+  background-color: rgb(250, 247, 247);
+}
+
+.homeNavBar:hover {
   background-color: rgb(250, 247, 247);
 }

@@ -27,6 +27,32 @@
     margin-right: 105px;
     background-color: rgb(44, 44, 44);
   }
+
+  .home {
+    margin-bottom: -3px;
+    cursor: pointer;
+  }
+
+  .home:hover {
+    color: rgb(97, 86, 26);
+  }
+
+  .arrowDiv {
+    display: flex;
+    align-items: center;
+    margin-bottom: -25px;
+    cursor: pointer;
+  }
+
+  .arrowDiv:hover {
+    color: rgb(97, 86, 26);
+  }
+
+  .arrowDiv i {
+    font-size: 8px;
+    margin-left: 5px;
+    margin-bottom: 7px;
+  }
 }
 
 @media screen and (max-height: 650px) {

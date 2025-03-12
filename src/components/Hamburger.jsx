@@ -19,7 +19,7 @@ export default function Hamburger() {
         <div className={styles.nav}>
           <div className={styles.navSub}>
             <div>
-              <Link className={styles} to="/homepage">
+              <Link className={styles.home} to="/homepage">
                 <h4 className={styles.home}>Home</h4>
               </Link>
 
@@ -37,15 +37,15 @@ export default function Hamburger() {
                 </Link>
               </div>
 
-              <Link className={styles.promo}>
+              <Link to="/promotions" className={styles.promo}>
                 <h4>Promotions</h4>
               </Link>
 
-              <Link className={styles.promo}>
+              <Link to="lookbooks" className={styles.promo}>
                 <h4>Lookbook</h4>
               </Link>
 
-              <Link className={styles.promo}>
+              <Link to="contacts" className={styles.promo}>
                 <h4>Contacts</h4>
               </Link>
             </div>

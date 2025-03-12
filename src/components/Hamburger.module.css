@@ -44,6 +44,8 @@
     align-items: center;
     margin-bottom: -25px;
     cursor: pointer;
+    color: white;
+    text-decoration: none;
   }
 
   .arrowDiv:hover {

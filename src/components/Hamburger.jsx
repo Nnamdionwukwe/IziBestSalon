@@ -23,14 +23,18 @@ export default function Hamburger() {
                 <h4 className={styles.home}>Home</h4>
               </Link>
 
-              <div className={styles.arrowDiv}>
-                <h4>Services</h4>
-                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+              <div>
+                <Link className={styles.arrowDiv}>
+                  <h4>Services</h4>
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                </Link>
               </div>
 
-              <div className={styles.arrowDiv}>
-                <h4>About</h4>
-                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+              <div>
+                <Link className={styles.arrowDiv}>
+                  <h4>About</h4>
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                </Link>
               </div>
 
               <h4 className={styles.promo}>Promotions</h4>

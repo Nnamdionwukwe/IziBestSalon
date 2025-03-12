@@ -14,7 +14,7 @@ export default function Footer() {
         <div className={styles.paraDiv}>
           <h4 className={styles.para1}>Izi Lifestyle Salon</h4>
           <h4 className={styles.para2}>Chandellux Imperial Hotel Durumi</h4>
-          <h4 className={styles.para3}>+234 803 058 8774</h4>
+          <h3 className={styles.para3}>+234 803 058 8774</h3>
         </div>
       </div>
     </div>

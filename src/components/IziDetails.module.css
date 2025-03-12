@@ -10,6 +10,7 @@
 .paraDiv {
   position: absolute;
   width: 265px;
+  height: 1200px;
   background-color: rgb(30, 30, 30);
   color: white;
   z-index: 3;

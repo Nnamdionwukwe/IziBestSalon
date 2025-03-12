@@ -19,27 +19,35 @@ export default function Hamburger() {
         <div className={styles.nav}>
           <div className={styles.navSub}>
             <div>
-              <Link className={styles.home} to="/HomePage">
+              <Link className={styles} to="/homepage">
                 <h4 className={styles.home}>Home</h4>
               </Link>
 
               <div>
-                <Link className={styles.arrowDiv}>
+                <Link to="/services" className={styles.arrowDiv}>
                   <h4>Services</h4>
                   <i class="fa fa-angle-double-right" aria-hidden="true"></i>
                 </Link>
               </div>
 
               <div>
-                <Link className={styles.arrowDiv}>
+                <Link to="/about" className={styles.arrowDiv}>
                   <h4>About</h4>
                   <i class="fa fa-angle-double-right" aria-hidden="true"></i>
                 </Link>
               </div>
 
-              <h4 className={styles.promo}>Promotions</h4>
-              <h4 className={styles.promo}>Lookbook</h4>
-              <h4 className={styles.promo}>Contacts</h4>
+              <Link className={styles.promo}>
+                <h4>Promotions</h4>
+              </Link>
+
+              <Link className={styles.promo}>
+                <h4>Lookbook</h4>
+              </Link>
+
+              <Link className={styles.promo}>
+                <h4>Contacts</h4>
+              </Link>
             </div>
           </div>
         </div>

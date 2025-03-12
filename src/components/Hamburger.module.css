@@ -52,6 +52,11 @@
     color: rgb(97, 86, 26);
   }
 
+  .promo {
+    color: white;
+    text-decoration: none;
+  }
+
   .promo:hover {
     color: rgb(97, 86, 26);
     cursor: pointer;

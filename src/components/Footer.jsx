@@ -8,9 +8,13 @@ export default function Footer() {
       <div>
         <div className={styles.Izi}>
           <img src={image} />
-          <p>Izi Lifestyle</p>
+          <p>izi L lifestyle</p>
         </div>
-        Izi Lifestyle Salon
+
+        <p>Izi Lifestyle Salon</p>
+        <p>Chandellux Imperial Hotel</p>
+        <p>Durumi</p>
+        <p></p>
       </div>
     </div>
   );

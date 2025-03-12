@@ -32,3 +32,20 @@
   margin: -12px 0px;
   width: 180px;
 }
+
+.mainSub {
+  display: flex;
+  justify-content: ;
+  align-items: center;
+  background-color: rgb(8, 7, 7);
+  padding: 40px 0px 40px 100px;
+  color: rgb(95, 83, 15);
+}
+
+.mainSub p {
+  opacity: 0.5;
+}
+
+.paras {
+  font-size: 11px;
+}

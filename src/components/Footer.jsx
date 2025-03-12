@@ -20,8 +20,11 @@ export default function Footer() {
         </div>
       </div>
 
-      <div>
-        <p></p>
+      <div className={styles.mainSub}>
+        <div>
+          <p className={styles.para}>Copyright 2025</p>
+          <p className={styles.paras}>Designed by Daft Punk</p>
+        </div>
       </div>
     </div>
   );

@@ -31,8 +31,8 @@ export default function Hamburger() {
               </div>
 
               <h4 className={styles.promo}>Promotions</h4>
-              <h4 className={styles.book}>Lookbook</h4>
-              <h4 className={styles.cont}>Contacts</h4>
+              <h4 className={styles.promo}>Lookbook</h4>
+              <h4 className={styles.promo}>Contacts</h4>
             </div>
           </div>
         </div>

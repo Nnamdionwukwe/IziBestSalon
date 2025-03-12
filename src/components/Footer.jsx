@@ -11,10 +11,11 @@ export default function Footer() {
           <p>izi lifestyle</p>
         </div>
 
-        <p>Izi Lifestyle Salon</p>
-        <p>Chandellux Imperial Hotel</p>
-        <p>Durumi</p>
-        <p></p>
+        <div className={styles.paraDiv}>
+          <h4 className={styles.para1}>Izi Lifestyle Salon</h4>
+          <h4 className={styles.para2}>Chandellux Imperial Hotel Durumi</h4>
+          <h4 className={styles.para3}>+234 803 058 8774</h4>
+        </div>
       </div>
     </div>
   );

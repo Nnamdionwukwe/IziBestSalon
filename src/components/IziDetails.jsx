@@ -1,7 +1,7 @@
 import styles from "./IziDetails.module.css";
 
 export default function IziDetails() {
-  const image = "salon-logo.jpg";
+  const image = "izi3.jpg";
 
   return (
     <div className={styles.main}>

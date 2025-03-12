@@ -22,7 +22,11 @@ export default function Footer() {
 
       <div className={styles.mainSub}>
         <div>
-          <p className={styles.para}>Copyright 2025</p>
+          <div className={styles.courtDiv}>
+            <p className={styles.para}>Copyright </p>
+            <i class="fa fa-copyright" aria-hidden="true"></i>
+            <p>2025</p>
+          </div>
           <p className={styles.paras}>Designed by Daft Punk</p>
         </div>
       </div>

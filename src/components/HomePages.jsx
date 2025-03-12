@@ -1,7 +1,7 @@
 import HomeNavBar from "./HomeNavBar";
 import styles from "./HomePage.module.css";
 
-export default function HomePage() {
+export default function HomePages() {
   const image = "box1.jpg";
   const image1 = "box2.jpg";
   const image3 = "box 3.jpg";
@@ -28,7 +28,7 @@ export default function HomePage() {
       <div className={styles.homeImg}>
         <img src={image} />
       </div> */}
-      home
+      home home
     </div>
   );
 }

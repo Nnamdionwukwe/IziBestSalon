@@ -2,6 +2,7 @@ import NavBar from "./NavBar";
 import styles from "./Home.module.css";
 import Approach from "./Approach";
 import IziDetails from "./IziDetails";
+import Surburbs from "./Surburbs";
 
 export default function Home() {
   const image = "salon-logo.jpg";
@@ -155,6 +156,8 @@ export default function Home() {
       <Approach />
 
       <IziDetails />
+
+      <Surburbs />
     </div>
   );
 }

@@ -14,9 +14,9 @@ function App() {
     <div className={styles.app}>
       <BrowserRouter>
         <Routes>
-          <Route index path="/" element={<Home />} />
+          <Route path="/homepage" element={<Home />} />
 
-          <Route path="homepage" element={<HomePage />} />
+          <Route index path="/" element={<HomePage />} />
 
           <Route path="services" element={<Services />} />
 

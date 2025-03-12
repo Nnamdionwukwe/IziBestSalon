@@ -22,7 +22,7 @@ export default function Surburbs() {
         <p>
           Recognized as one of the premier salons in Abuja and in Nigeria, the
           Izi Lifestyle team is known for it's warm and friendly atmosphere,
-          helping clients experience the peace and comfort they deserve. Open 6
+          helping clients experience the peace and comfort they deserve. Open 7
           days a week and 24/7, Izi Lifestyle Salon and Spa can be found just
           past Apo Bridge in Chandellux Imperial Hotel Durumi.
         </p>

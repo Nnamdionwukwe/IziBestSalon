@@ -1,6 +1,7 @@
 @media screen and (min-width: 100px) {
   .main {
     margin-bottom: 130px;
+    height: 1250px;
   }
 
   .imgDiv {
@@ -11,7 +12,7 @@
   .paraDiv {
     position: absolute;
     width: 60%;
-    height: 1200px;
+    height: 1250px;
     background-color: rgb(30, 30, 30);
     color: white;
     z-index: 3;
@@ -37,9 +38,9 @@
   }
 
   .img {
-    width: 220px;
     object-fit: cover;
-    height: 1200px;
+    height: 1250px;
+    width: 40%;
   }
 
   .image {

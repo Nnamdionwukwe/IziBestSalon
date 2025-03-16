@@ -1,4 +1,9 @@
 @media screen and (min-width: 100px) {
+  .homeImgMain {
+    position: absolute;
+    z-index: 5;
+  }
+
   .homeImg {
     display: flex;
     align-items: center;

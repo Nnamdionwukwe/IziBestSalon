@@ -47,8 +47,8 @@ export default function HomePage() {
   }
 
   return (
-    <div className={styles.home}>
-      <div>
+    <div className={styles.homeMain}>
+      <div className={styles.homeImgMain}>
         <HomeNavBar />
       </div>
 

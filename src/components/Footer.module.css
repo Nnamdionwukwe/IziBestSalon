@@ -11,12 +11,12 @@
   .Izi {
     display: flex;
     align-items: center;
-    margin-bottom: -30px;
+    margin-bottom: -10px;
     width: 50%;
   }
 
   .Izi p {
-    font-size: 45px;
+    font-size: 20px;
     width: 50%;
   }
 
@@ -63,5 +63,12 @@
 
   .paras {
     font-size: 11px;
+  }
+}
+
+@media screen and (min-width: 300px) {
+  .Izi p {
+    font-size: 45px;
+    width: 50%;
   }
 }

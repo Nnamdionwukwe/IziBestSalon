@@ -3,8 +3,8 @@ import HomeNavBar from "./HomeNavBar";
 import styles from "./HomePage.module.css";
 
 const steps = [
-  "box1.jpg",
   "box2.jpg",
+  "box1.jpg",
   "box 3.jpg",
   "cut1.jpg",
   "cut2.jpg",

@@ -19,7 +19,7 @@
   }
 
   .rightDiv i {
-    font-size: 20px;
+    font-size: 50px;
   }
 
   .leftDiv {
@@ -31,7 +31,7 @@
   }
 
   .leftDiv i {
-    font-size: 20px;
+    font-size: 50px;
     columns: green;
   }
 }

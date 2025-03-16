@@ -55,8 +55,16 @@
     margin-bottom: 130px;
   }
 
+  .paraDiv {
+    position: absolute;
+    width: 60%;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    z-index: 3;
+  }
+
   .para1 {
-    font-size: 22px;
+    font-size: 28px;
     padding-left: 40px;
     padding-top: 60px;
     padding-right: 40px;
@@ -65,7 +73,7 @@
   }
 
   .para2 {
-    font-size: 12px;
+    font-size: 16px;
     padding-left: 40px;
     padding-top: 60px;
     padding-right: 40px;
@@ -82,7 +90,7 @@
 
   .image {
     display: flex;
-    height: 1300px;
+    height: 1800px;
     width: 100%;
     justify-content: right;
     opacity: 0.7;

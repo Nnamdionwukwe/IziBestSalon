@@ -1,5 +1,8 @@
 @media screen and (min-width: 100px) {
   .homeImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
     width: 100%;
     height: 100%;
@@ -14,12 +17,12 @@
   .rightDiv {
     position: absolute;
     left: 0;
-    top: 0;
-    margin-left: 120px;
+    margin-left: 80px;
   }
 
   .rightDiv i {
     font-size: 50px;
+    color: green;
   }
 
   .leftDiv {
@@ -32,6 +35,6 @@
 
   .leftDiv i {
     font-size: 50px;
-    columns: green;
+    color: green;
   }
 }

@@ -39,7 +39,7 @@ export default function HomePage() {
   const [step, setStep] = useState(1);
 
   function handleNext() {
-    if (step < 14) setStep(step + 1);
+    if (step < 13) setStep(step + 1);
   }
 
   function handlePrevious() {

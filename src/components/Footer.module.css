@@ -12,10 +12,12 @@
     display: flex;
     align-items: center;
     margin-bottom: -30px;
+    width: 50%;
   }
 
   .Izi p {
     font-size: 45px;
+    width: 50%;
   }
 
   .Izi img {
@@ -28,11 +30,12 @@
     font-size: 12px;
     margin-left: 20px;
     color: rgb(95, 83, 15);
+    width: 100%;
   }
 
   .para2 {
     margin: -12px 0px;
-    width: 180px;
+    width: 50%;
   }
 
   .mainSub {

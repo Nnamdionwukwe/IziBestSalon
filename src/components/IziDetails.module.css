@@ -1,47 +1,51 @@
-.main {
-  margin-bottom: 130px;
-}
+@media screen and (min-width: 100px) {
+  .main {
+    margin-bottom: 130px;
+  }
 
-.imgDiv {
-  position: relative;
-  background-color: rgb(30, 30, 30);
-}
+  .imgDiv {
+    position: relative;
+    background-color: rgb(30, 30, 30);
+  }
 
-.paraDiv {
-  position: absolute;
-  width: 265px;
-  height: 1200px;
-  background-color: rgb(30, 30, 30);
-  color: white;
-  z-index: 3;
-}
+  .paraDiv {
+    position: absolute;
+    width: 60%;
+    height: 1200px;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    z-index: 3;
+  }
 
-.para1 {
-  font-size: 28px;
-  padding-left: 40px;
-  padding-top: 60px;
-  padding-right: 40px;
-  margin-bottom: -5px;
-}
+  .para1 {
+    font-size: 28px;
+    padding-left: 40px;
+    padding-top: 60px;
+    padding-right: 40px;
+    margin-bottom: -5px;
+    width: 60%;
+  }
 
-.para2 {
-  font-size: 16px;
-  padding-left: 40px;
-  padding-top: 60px;
-  padding-right: 40px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-style: italic;
-}
+  .para2 {
+    font-size: 16px;
+    padding-left: 40px;
+    padding-top: 60px;
+    padding-right: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    width: 60%;
+  }
 
-.img {
-  width: 220px;
-  object-fit: cover;
-  height: 1200px;
-}
+  .img {
+    width: 220px;
+    object-fit: cover;
+    height: 1200px;
+  }
 
-.image {
-  display: flex;
+  .image {
+    display: flex;
 
-  justify-content: right;
-  opacity: 0.7;
+    justify-content: right;
+    opacity: 0.7;
+  }
 }

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Logo from "../Logo";
 import styles from "./SalonLogo.module.css";
 
@@ -6,7 +7,9 @@ export default function SalonLogo() {
 
   return (
     <div>
-      <img className={styles.logo} src={image} />
+      <Link to="/">
+        <img className={styles.logo} src={image} />
+      </Link>
     </div>
   );
 }

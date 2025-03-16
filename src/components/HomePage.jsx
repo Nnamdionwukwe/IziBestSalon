@@ -21,14 +21,13 @@ export default function HomePage() {
 
   return (
     <div className={styles.home}>
-      {/* <div>
+      <div>
         <HomeNavBar />
       </div>
 
       <div className={styles.homeImg}>
         <img src={image} />
-      </div> */}
-      hello home
+      </div>
     </div>
   );
 }

@@ -1,25 +1,27 @@
-.navBar {
-  position: fixed;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  z-index: 5;
-}
+@media screen and (min-width: 100px) {
+  .navBar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 5;
+  }
 
-.homeNavBar {
-  position: fixed;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  z-index: 5;
-  padding-right: 10px;
-  padding-top: 40px;
-}
+  .homeNavBar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 5;
+    padding-right: 10px;
+    padding-top: 40px;
+  }
 
-.navBar:hover {
-  background-color: rgb(250, 247, 247);
-}
+  .navBar:hover {
+    background-color: rgb(250, 247, 247);
+  }
 
-.homeNavBar:hover {
-  background-color: rgb(250, 247, 247);
+  .homeNavBar:hover {
+    background-color: rgb(250, 247, 247);
+  }
 }

@@ -1,35 +1,37 @@
-.main {
-  padding-left: 40px;
-  padding-right: 20px;
-}
+@media screen and (min-width: 100px) {
+  .main {
+    padding-left: 40px;
+    padding-right: 20px;
+  }
 
-.imageDiv img {
-  height: 300px;
-  width: 100%;
-  object-fit: cover;
-}
+  .imageDiv img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+  }
 
-.mainSub {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgb(37, 36, 36);
-  color: white;
-  height: 200px;
-  margin-top: -5px;
-}
+  .mainSub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37, 36, 36);
+    color: white;
+    height: 200px;
+    margin-top: -5px;
+  }
 
-.mainSub:hover {
-  background-color: rgb(109, 80, 26);
-}
+  .mainSub:hover {
+    background-color: rgb(109, 80, 26);
+  }
 
-.mainSub p {
-  font-size: 19px;
-  width: 350px;
-  padding-left: 20px;
-}
+  .mainSub p {
+    font-size: 19px;
+    width: 350px;
+    padding-left: 20px;
+  }
 
-.mainPara {
-  padding: 20px 50px 20px 80px;
-  color: rgb(34, 34, 34);
+  .mainPara {
+    padding: 20px 50px 20px 80px;
+    color: rgb(34, 34, 34);
+  }
 }

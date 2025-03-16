@@ -7,7 +7,7 @@ export default function Hamburger() {
 
   return (
     <div className={styles.ham}>
-      <div onClick={() => setIsOpen((is) => !is)}>
+      <div className={styles.hamImg} onClick={() => setIsOpen((is) => !is)}>
         {!isOpen ? (
           <i className="fa fa-bars" aria-hidden="true"></i>
         ) : (

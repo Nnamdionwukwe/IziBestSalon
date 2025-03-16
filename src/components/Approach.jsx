@@ -38,7 +38,7 @@ export default function Approach() {
         </div>
 
         {isOpen1 && (
-          <div>
+          <div className={styles.constMain}>
             <p className={styles.const1}>CONSTRUCTIVE THINKING</p>
 
             <p className={styles.const2}>
@@ -71,7 +71,7 @@ export default function Approach() {
         </div>
 
         {isOpen2 && (
-          <div>
+          <div className={styles.constMain}>
             <p className={styles.const1}>OUR PROCESS</p>
 
             <p className={styles.const2}>
@@ -105,7 +105,7 @@ export default function Approach() {
         </div>
 
         {isOpen3 && (
-          <div>
+          <div className={styles.constMain}>
             <p className={styles.const1}>THE GOAL</p>
 
             <p className={styles.const2}>

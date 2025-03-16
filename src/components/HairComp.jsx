@@ -137,7 +137,6 @@ export default function HairComp() {
               <h5>Double Process</h5>
 
               <div className={styles.dollarDiv}>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbwRsCU3zmRmsAQWF6XVNnncHI6zznIERJbQ5aCRMdOqiJSFVEkGkuv8DhRmgNZrcCVUc&usqp=CAU" />
                 <p>BUC*</p>
               </div>
             </div>
@@ -150,7 +149,6 @@ export default function HairComp() {
               <h5>Color Correction</h5>
 
               <div className={styles.dollarDiv}>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbwRsCU3zmRmsAQWF6XVNnncHI6zznIERJbQ5aCRMdOqiJSFVEkGkuv8DhRmgNZrcCVUc&usqp=CAU" />
                 <p>BUC*</p>
               </div>
             </div>
@@ -203,7 +201,7 @@ export default function HairComp() {
 
       <div className={styles.main2}>
         <div className={styles.hairCutDiv}>
-          <h4>TEXTURING SERVICEWS</h4>
+          <h4>TEXTURING SERVICES</h4>
         </div>
 
         <div>
@@ -221,7 +219,6 @@ export default function HairComp() {
               <h5>Keratin Complex</h5>
 
               <div className={styles.dollarDiv}>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbwRsCU3zmRmsAQWF6XVNnncHI6zznIERJbQ5aCRMdOqiJSFVEkGkuv8DhRmgNZrcCVUc&usqp=CAU" />
                 <p>BUC*</p>
               </div>
             </div>
@@ -236,7 +233,6 @@ export default function HairComp() {
               <h5>Perm</h5>
 
               <div className={styles.dollarDiv}>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbwRsCU3zmRmsAQWF6XVNnncHI6zznIERJbQ5aCRMdOqiJSFVEkGkuv8DhRmgNZrcCVUc&usqp=CAU" />
                 <p>BUC*</p>
               </div>
             </div>
@@ -249,7 +245,6 @@ export default function HairComp() {
               <h5>Anti-Curl</h5>
 
               <div className={styles.dollarDiv}>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbwRsCU3zmRmsAQWF6XVNnncHI6zznIERJbQ5aCRMdOqiJSFVEkGkuv8DhRmgNZrcCVUc&usqp=CAU" />
                 <p>BUC*</p>
               </div>
             </div>
@@ -262,12 +257,113 @@ export default function HairComp() {
               <h5>Japanese Straightening</h5>
 
               <div className={styles.dollarDiv}>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbwRsCU3zmRmsAQWF6XVNnncHI6zznIERJbQ5aCRMdOqiJSFVEkGkuv8DhRmgNZrcCVUc&usqp=CAU" />
                 <p>BUC*</p>
               </div>
             </div>
 
             <div className={styles.ourDiv}></div>
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.main2}>
+        <div className={styles.hairCutDiv}>
+          <h4>HAIR EXTENSIONS</h4>
+        </div>
+
+        <div>
+          <div className={styles.ourDiv}>
+            <p>
+              Human hair extensions is completely gentle, chemical free, and
+              non-damaging for your hair. Wearing it feels like your own hair.
+              Hair extensions can give you a more modern fashionable style. An
+              added benefit of our extensions is cutting time from everyday
+              styling.
+            </p>
+          </div>
+
+          <div>
+            <div className={styles.blowDIv}>
+              <h5>Washing & Drying</h5>
+
+              <div className={styles.dollarDiv}>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbwRsCU3zmRmsAQWF6XVNnncHI6zznIERJbQ5aCRMdOqiJSFVEkGkuv8DhRmgNZrcCVUc&usqp=CAU" />
+                <p>4,000</p>
+              </div>
+            </div>
+
+            <div className={styles.ourDiv}></div>
+          </div>
+
+          <div>
+            <div className={styles.blowDIv}>
+              <h5>Washing, Drying & Blowout</h5>
+
+              <div className={styles.dollarDiv}>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbwRsCU3zmRmsAQWF6XVNnncHI6zznIERJbQ5aCRMdOqiJSFVEkGkuv8DhRmgNZrcCVUc&usqp=CAU" />
+
+                <p>5000</p>
+              </div>
+            </div>
+
+            <div className={styles.ourDiv}></div>
+          </div>
+
+          <div>
+            <div className={styles.blowDIv}>
+              <h5>Curl to Straight</h5>
+
+              <div className={styles.dollarDiv}>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbwRsCU3zmRmsAQWF6XVNnncHI6zznIERJbQ5aCRMdOqiJSFVEkGkuv8DhRmgNZrcCVUc&usqp=CAU" />
+
+                <p>7,000</p>
+              </div>
+            </div>
+
+            <div className={styles.ourDiv}>
+              <p>
+                Need a quick-fix. Just relax. This choice treatment includes
+                hair conditioner and ceramic flat smoothing.
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <div className={styles.blowDIv}>
+              <h5>Roller Set Style</h5>
+
+              <div className={styles.dollarDiv}>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbwRsCU3zmRmsAQWF6XVNnncHI6zznIERJbQ5aCRMdOqiJSFVEkGkuv8DhRmgNZrcCVUc&usqp=CAU" />
+
+                <p>8,000</p>
+              </div>
+            </div>
+
+            <div className={styles.ourDiv}>
+              <p>
+                No problem. Our stylists will take the time to talk with you and
+                create the wanted look.
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <div className={styles.blowDIv}>
+              <h5>Up-DO Style</h5>
+
+              <div className={styles.dollarDiv}>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbwRsCU3zmRmsAQWF6XVNnncHI6zznIERJbQ5aCRMdOqiJSFVEkGkuv8DhRmgNZrcCVUc&usqp=CAU" />
+
+                <p>15,000</p>
+              </div>
+            </div>
+
+            <div className={styles.ourDiv}>
+              <p>
+                Each experience begins with an "in-chair" consultation to help
+                you visualize the end before we begin.
+              </p>
+            </div>
           </div>
         </div>
       </div>

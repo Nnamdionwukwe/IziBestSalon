@@ -201,7 +201,7 @@ export default function HairComp() {
         </div>
       </div>
 
-      <div className={styles.main}>
+      <div className={styles.main2}>
         <div className={styles.hairCutDiv}>
           <h4>TEXTURING SERVICEWS</h4>
         </div>

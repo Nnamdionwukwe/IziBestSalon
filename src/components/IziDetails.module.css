@@ -1,7 +1,6 @@
 @media screen and (min-width: 100px) {
   .main {
     margin-bottom: 130px;
-    height: 1250px;
   }
 
   .imgDiv {
@@ -12,14 +11,13 @@
   .paraDiv {
     position: absolute;
     width: 60%;
-    height: 1250px;
     background-color: rgb(30, 30, 30);
     color: white;
     z-index: 3;
   }
 
   .para1 {
-    font-size: 28px;
+    font-size: 18px;
     padding-left: 40px;
     padding-top: 60px;
     padding-right: 40px;
@@ -28,7 +26,7 @@
   }
 
   .para2 {
-    font-size: 16px;
+    font-size: 10px;
     padding-left: 40px;
     padding-top: 60px;
     padding-right: 40px;
@@ -39,13 +37,53 @@
 
   .img {
     object-fit: cover;
-    height: 1250px;
+    height: 100%;
     width: 40%;
   }
 
   .image {
     display: flex;
+    height: 1010px;
+    width: 100%;
+    justify-content: right;
+    opacity: 0.7;
+  }
+}
 
+@media screen and (min-width: 300px) {
+  .main {
+    margin-bottom: 130px;
+  }
+
+  .para1 {
+    font-size: 22px;
+    padding-left: 40px;
+    padding-top: 60px;
+    padding-right: 40px;
+    margin-bottom: -5px;
+    width: 60%;
+  }
+
+  .para2 {
+    font-size: 12px;
+    padding-left: 40px;
+    padding-top: 60px;
+    padding-right: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    width: 60%;
+  }
+
+  .img {
+    object-fit: cover;
+    height: 100%;
+    width: 40%;
+  }
+
+  .image {
+    display: flex;
+    height: 1300px;
+    width: 100%;
     justify-content: right;
     opacity: 0.7;
   }

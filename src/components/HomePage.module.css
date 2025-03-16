@@ -13,13 +13,24 @@
 
   .rightDiv {
     position: absolute;
-    right: 0;
-    margin-right: 20px;
+    left: 0;
+    top: 0;
+    margin-left: 20px;
+  }
+
+  .rightDiv i {
+    font-size: 20px;
   }
 
   .leftDiv {
     position: absolute;
     right: 0;
     margin-right: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .leftDiv i {
+    font-size: 20px;
   }
 }

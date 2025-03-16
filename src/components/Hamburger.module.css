@@ -72,6 +72,11 @@
     margin-left: 5px;
     margin-bottom: 7px;
   }
+
+  .navSubMain i {
+    margin-left: -1px;
+    cursor: pointer;
+  }
 }
 
 @media screen and (max-height: 650px) {

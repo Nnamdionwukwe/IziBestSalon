@@ -1,0 +1,48 @@
+@media screen and (min-width: 100px) {
+  .main {
+    margin-top: 130px;
+    margin-left: 70px;
+    margin-right: 50px;
+  }
+
+  .hairCutDiv {
+    border-bottom: 2px solid rgb(212, 212, 212);
+  }
+
+  .hairCutDiv h4 {
+    font-size: 15px;
+    font-family: "Courier New", Courier, monospace;
+    margin-bottom: 10px;
+  }
+
+  .ourDiv p {
+    padding-right: 20px;
+    color: rgb(193, 193, 193);
+  }
+
+  .blowDIv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: -20px 0px -30px 0px;
+  }
+
+  .blowDIv h5 {
+    font-size: 14px;
+    color: rgb(57, 56, 56);
+  }
+
+  .dollarDiv {
+    display: flex;
+    align-items: center;
+  }
+
+  .dollarDiv img {
+    width: 13px;
+    height: 12px;
+  }
+
+  .dollarDiv p {
+    columns: red;
+  }
+}

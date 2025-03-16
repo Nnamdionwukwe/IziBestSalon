@@ -7,6 +7,14 @@ import About from "./components/About";
 import Promotions from "./components/Promotions";
 import LookBooks from "./components/LookBooks";
 import Contacts from "./components/Contacts";
+
+import Hair from "./components/Hair";
+import Nails from "./components/Nails";
+import Face from "./components/Face";
+import Body from "./components/Body";
+import Waxing from "./components/Waxing";
+import MakeUp from "./components/MakeUp";
+import EyeLash from "./components/EyeLash";
 import PageNotFound from "./components/PageNotFound";
 
 function App() {
@@ -27,6 +35,14 @@ function App() {
           <Route path="lookbooks" element={<LookBooks />} />
 
           <Route path="contacts" element={<Contacts />} />
+
+          <Route path="hair" element={<Hair />} />
+          <Route path="nails" element={<Nails />} />
+          <Route path="face" element={<Face />} />
+          <Route path="body" element={<Body />} />
+          <Route path="waxing" element={<Waxing />} />
+          <Route path="makeup" element={<MakeUp />} />
+          <Route path="eyelash" element={<EyeLash />} />
 
           <Route path="*" element={<PageNotFound />} />
         </Routes>

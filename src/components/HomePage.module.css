@@ -35,7 +35,7 @@
 
   .rightDiv i {
     font-size: 50px;
-    color: green;
+    color: gray;
   }
 
   .leftDiv {
@@ -48,6 +48,6 @@
 
   .leftDiv i {
     font-size: 50px;
-    color: green;
+    color: gray;
   }
 }

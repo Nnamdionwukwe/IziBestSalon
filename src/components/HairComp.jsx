@@ -349,7 +349,7 @@ export default function HairComp() {
 
           <div>
             <div className={styles.blowDIv}>
-              <h5>Up-DO Style</h5>
+              <h5>Up-Do Style</h5>
 
               <div className={styles.dollarDiv}>
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbwRsCU3zmRmsAQWF6XVNnncHI6zznIERJbQ5aCRMdOqiJSFVEkGkuv8DhRmgNZrcCVUc&usqp=CAU" />

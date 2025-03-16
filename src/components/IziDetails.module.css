@@ -97,3 +97,38 @@
     opacity: 0.7;
   }
 }
+
+@media screen and (min-width: 400px) {
+  .paraDiv {
+    position: absolute;
+    width: 60%;
+    height: 1500px;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    z-index: 3;
+  }
+
+  .para2 {
+    font-size: 16px;
+    padding-left: 40px;
+    padding-top: 60px;
+    padding-right: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    width: 60%;
+  }
+
+  .img {
+    object-fit: cover;
+    height: 1500px;
+    width: 40%;
+  }
+
+  .image {
+    display: flex;
+    height: 1500px;
+    width: 100%;
+    justify-content: right;
+    opacity: 0.7;
+  }
+}

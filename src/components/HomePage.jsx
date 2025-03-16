@@ -53,22 +53,14 @@ export default function HomePage() {
       </div>
 
       <div className={styles.homeImg}>
-        <div className={styles.leftDiv}>
-          <i
-            onClick={(e) => handleNext(e)}
-            className="fa fa-arrow-right"
-            aria-hidden="true"
-          ></i>
+        <div onClick={(e) => handleNext(e)} className={styles.leftDiv}>
+          <i className="fa fa-arrow-right" aria-hidden="true"></i>
         </div>
 
         <img src={steps[step - 1]} />
 
-        <div className={styles.rightDiv}>
-          <i
-            onClick={(e) => handlePrevious(e)}
-            className="fa fa-arrow-left"
-            aria-hidden="true"
-          ></i>
+        <div onClick={(e) => handlePrevious(e)} className={styles.rightDiv}>
+          <i className="fa fa-arrow-left" aria-hidden="true"></i>
         </div>
       </div>
     </div>

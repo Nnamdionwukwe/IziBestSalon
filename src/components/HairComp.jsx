@@ -200,6 +200,77 @@ export default function HairComp() {
           </div>
         </div>
       </div>
+
+      <div className={styles.main}>
+        <div className={styles.hairCutDiv}>
+          <h4>TEXTURING SERVICEWS</h4>
+        </div>
+
+        <div>
+          <div className={styles.ourDiv}>
+            <p>
+              Our stylists developed unique hair texturizing techniques.
+              Anything from Smoothing Therapy, Relaxer or Anti-Curl to
+              Permanents, Partial Permanents, and Japanese Straightening
+              personalized for your expression of the style.
+            </p>
+          </div>
+
+          <div>
+            <div className={styles.blowDIv}>
+              <h5>Keratin Complex</h5>
+
+              <div className={styles.dollarDiv}>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbwRsCU3zmRmsAQWF6XVNnncHI6zznIERJbQ5aCRMdOqiJSFVEkGkuv8DhRmgNZrcCVUc&usqp=CAU" />
+                <p>BUC*</p>
+              </div>
+            </div>
+
+            <div className={styles.ourDiv}>
+              <p>Smothing therapy</p>
+            </div>
+          </div>
+
+          <div>
+            <div className={styles.blowDIv}>
+              <h5>Perm</h5>
+
+              <div className={styles.dollarDiv}>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbwRsCU3zmRmsAQWF6XVNnncHI6zznIERJbQ5aCRMdOqiJSFVEkGkuv8DhRmgNZrcCVUc&usqp=CAU" />
+                <p>BUC*</p>
+              </div>
+            </div>
+
+            <div className={styles.ourDiv}></div>
+          </div>
+
+          <div>
+            <div className={styles.blowDIv}>
+              <h5>Anti-Curl</h5>
+
+              <div className={styles.dollarDiv}>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbwRsCU3zmRmsAQWF6XVNnncHI6zznIERJbQ5aCRMdOqiJSFVEkGkuv8DhRmgNZrcCVUc&usqp=CAU" />
+                <p>BUC*</p>
+              </div>
+            </div>
+
+            <div className={styles.ourDiv}></div>
+          </div>
+
+          <div>
+            <div className={styles.blowDIv}>
+              <h5>Japanese Straightening</h5>
+
+              <div className={styles.dollarDiv}>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbwRsCU3zmRmsAQWF6XVNnncHI6zznIERJbQ5aCRMdOqiJSFVEkGkuv8DhRmgNZrcCVUc&usqp=CAU" />
+                <p>BUC*</p>
+              </div>
+            </div>
+
+            <div className={styles.ourDiv}></div>
+          </div>
+        </div>
+      </div>
     </>
   );
 }

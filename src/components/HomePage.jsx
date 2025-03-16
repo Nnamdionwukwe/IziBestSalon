@@ -11,7 +11,6 @@ const steps = [
   "cut3.jpg",
   "ghana1.jpg",
   "ghana2.jpg",
-  "ghana3.jpg",
   "ghana4.jpg",
   "install1.jpg",
   "install2.jpg",
@@ -56,7 +55,7 @@ export default function HomePage() {
       <div className={styles.homeImg}>
         <div className={styles.leftDiv}>
           <i
-            onClick={(e) => handlePrevious(e)}
+            onClick={(e) => handleNext(e)}
             className="fa fa-arrow-right"
             aria-hidden="true"
           ></i>
@@ -66,7 +65,7 @@ export default function HomePage() {
 
         <div className={styles.rightDiv}>
           <i
-            onClick={(e) => handleNext(e)}
+            onClick={(e) => handlePrevious(e)}
             className="fa fa-arrow-left"
             aria-hidden="true"
           ></i>

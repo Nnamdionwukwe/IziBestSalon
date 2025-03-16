@@ -26,7 +26,7 @@ export default function HomePage() {
       </div>
 
       <div className={styles.homeImg}>
-        <img src={image} />
+        <img src={image1} />
       </div>
     </div>
   );

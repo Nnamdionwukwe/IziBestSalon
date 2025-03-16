@@ -32,6 +32,90 @@ export default function HairComp() {
             </p>
           </div>
         </div>
+
+        <div>
+          <div className={styles.blowDIv}>
+            <h5>WOmen's Cut</h5>
+
+            <div className={styles.dollarDiv}>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbwRsCU3zmRmsAQWF6XVNnncHI6zznIERJbQ5aCRMdOqiJSFVEkGkuv8DhRmgNZrcCVUc&usqp=CAU" />
+              <p>5,500</p>
+            </div>
+          </div>
+
+          <div className={styles.ourDiv}>
+            <p>
+              Our hair artists skillfully integrate the latest trends and
+              timeless classics to deliver your beautiful look.
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <div className={styles.blowDIv}>
+            <h5>WOmen's Cut & Style</h5>
+
+            <div className={styles.dollarDiv}>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbwRsCU3zmRmsAQWF6XVNnncHI6zznIERJbQ5aCRMdOqiJSFVEkGkuv8DhRmgNZrcCVUc&usqp=CAU" />
+              <p>6,500</p>
+            </div>
+          </div>
+
+          <div className={styles.ourDiv}>
+            <p>
+              Precision haircut and style where your look will fit your
+              personality and lifestyle. Whatever it takes. We'll get you there.
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <div className={styles.blowDIv}>
+            <h5>Boy's Cut & Style</h5>
+
+            <div className={styles.dollarDiv}>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbwRsCU3zmRmsAQWF6XVNnncHI6zznIERJbQ5aCRMdOqiJSFVEkGkuv8DhRmgNZrcCVUc&usqp=CAU" />
+              <p>3,000</p>
+            </div>
+          </div>
+
+          <div className={styles.ourDiv}>
+            <p>Royal Treatment reserved for kids 6 years and younger.</p>
+          </div>
+        </div>
+
+        <div>
+          <div className={styles.blowDIv}>
+            <h5>Men's Cut & Style</h5>
+
+            <div className={styles.dollarDiv}>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbwRsCU3zmRmsAQWF6XVNnncHI6zznIERJbQ5aCRMdOqiJSFVEkGkuv8DhRmgNZrcCVUc&usqp=CAU" />
+              <p>4,000</p>
+            </div>
+          </div>
+
+          <div className={styles.ourDiv}>
+            <p>This treatment will leave you polished and professional.</p>
+          </div>
+        </div>
+
+        <div>
+          <div className={styles.blowDIv}>
+            <h5>Blowout & Style</h5>
+
+            <div className={styles.dollarDiv}>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbwRsCU3zmRmsAQWF6XVNnncHI6zznIERJbQ5aCRMdOqiJSFVEkGkuv8DhRmgNZrcCVUc&usqp=CAU" />
+              <p>2,500</p>
+            </div>
+          </div>
+
+          <div className={styles.ourDiv}>
+            <p>
+              More than just a Style. This treatment will include a bang trim as
+              well.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );

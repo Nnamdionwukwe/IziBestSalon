@@ -1,4 +1,5 @@
 import BodyComp from "./BodyComp";
+import Footer from "./Footer";
 import NavBar from "./NavBar";
 
 export default function Body() {
@@ -7,6 +8,8 @@ export default function Body() {
       <NavBar />
 
       <BodyComp />
+
+      <Footer />
     </div>
   );
 }

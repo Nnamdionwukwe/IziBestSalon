@@ -1,5 +1,5 @@
+import FaceComp from "./FaceComp";
 import Footer from "./Footer";
-import HairComp from "./HairComp";
 import NavBar from "./NavBar";
 
 export default function Face() {
@@ -8,7 +8,7 @@ export default function Face() {
       <NavBar />
 
       <>
-        <HairComp />
+        <FaceComp />
       </>
 
       <Footer />

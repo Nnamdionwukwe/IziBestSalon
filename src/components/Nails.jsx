@@ -1,5 +1,5 @@
+import NailsComp from "../NailsComp";
 import Footer from "./Footer";
-import HairComp from "./HairComp";
 import NavBar from "./NavBar";
 
 export default function Nails() {
@@ -8,7 +8,7 @@ export default function Nails() {
       <NavBar />
 
       <>
-        <HairComp />
+        <NailsComp />
       </>
 
       <Footer />

@@ -6,6 +6,12 @@
   }
 
   .main2 {
+    margin-top: 0px;
+    margin-left: 70px;
+    margin-right: 50px;
+  }
+
+  .main2 {
     margin-top: 100px;
     margin-left: 70px;
     margin-right: 50px;
@@ -38,6 +44,20 @@
     align-items: center;
     justify-content: space-between;
     margin: -20px 0px -30px 0px;
+  }
+
+  .blowDIv2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0px -30px 0px;
+  }
+
+  .blowDIv3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 0px -30px 0px;
   }
 
   .blowDIv h5 {

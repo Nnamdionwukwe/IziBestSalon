@@ -1,3 +1,9 @@
+import NavBar from "./NavBar";
+
 export default function Nails() {
-  return <div>Nails</div>;
+  return (
+    <div>
+      <NavBar />
+    </div>
+  );
 }

@@ -1,3 +1,9 @@
+import NavBar from "./NavBar";
+
 export default function Face() {
-  return <div>Face</div>;
+  return (
+    <div>
+      <NavBar />
+    </div>
+  );
 }

@@ -1,3 +1,9 @@
+import NavBar from "./NavBar";
+
 export default function EyeLash() {
-  return <div>EyeLash</div>;
+  return (
+    <div>
+      <NavBar />
+    </div>
+  );
 }

@@ -1,3 +1,9 @@
+import NavBar from "./NavBar";
+
 export default function MakeUp() {
-  return <div>MakeUp</div>;
+  return (
+    <div>
+      <NavBar />
+    </div>
+  );
 }

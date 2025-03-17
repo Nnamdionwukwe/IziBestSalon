@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 import HairComp from "./HairComp";
 import NavBar from "./NavBar";
 
@@ -9,6 +10,8 @@ export default function Hairs() {
       <>
         <HairComp />
       </>
+
+      <Footer />
     </div>
   );
 }

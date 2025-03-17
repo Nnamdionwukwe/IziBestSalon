@@ -1,3 +1,9 @@
+import NavBar from "./NavBar";
+
 export default function Body() {
-  return <div>Body</div>;
+  return (
+    <div>
+      <NavBar />
+    </div>
+  );
 }

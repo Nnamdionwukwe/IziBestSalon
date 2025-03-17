@@ -62,6 +62,7 @@
   .imageDiv {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    column-gap: 1px;
   }
 
   .imageDivImg1 {
@@ -82,8 +83,27 @@
     margin-top: -5px;
   }
 
-  .imageDiv div img {
-    border-top-right-radius: 1px solid red;
+  .imageDivImg1 img {
+    width: 100%;
+    object-fit: cover;
+    border-right: 1px solid black;
+  }
+
+  .imageDivImg2 img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .imageDivImg3 img {
+    width: 100%;
+    object-fit: cover;
+    border-right: 1px solid black;
+
+    border-top: 1px solid black;
+  }
+
+  .imageDivImg4 img {
+    border-top: 1px solid black;
     width: 100%;
     object-fit: cover;
   }

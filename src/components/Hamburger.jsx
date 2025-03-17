@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 export default function Hamburger() {
   const [isOpen, setIsOpen] = useState(false);
   const [isOpen2, setIsOpen2] = useState(false);
+  const [isOpen3, setIsOpen3] = useState(false);
 
   return (
     <div className={styles.ham}>
@@ -41,8 +42,8 @@ export default function Hamburger() {
                 </div>
 
                 <div>
-                  <Link to="/about" className={styles.arrowDiv}>
-                    <h4>About</h4>
+                  <Link className={styles.arrowDiv}>
+                    <h4 onClick={() => setIsOpen3(true)}>About</h4>
                     <i class="fa fa-angle-double-right" aria-hidden="true"></i>
                   </Link>
                 </div>
@@ -106,6 +107,36 @@ export default function Hamburger() {
                 <Link to="/eyelash" className={styles.promo}>
                   <h4>Eyelash</h4>
                 </Link>
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
+
+      <div>
+        {isOpen3 && (
+          <div className={styles.nav}>
+            <div className={styles.navSub}>
+              <div className={styles.navSubMain}>
+                <i
+                  onClick={() => setIsOpen3(false)}
+                  className="fa fa-long-arrow-left"
+                  aria-hidden="true"
+                ></i>
+
+                <Link className={styles.home} to="/spaparties">
+                  <h4 className={styles.home}>Spa Parties</h4>
+                </Link>
+
+                <Link className={styles.home} to="/products">
+                  <h4 className={styles.home}>Products</h4>
+                </Link>
+
+                <div>
+                  <Link to="/employment" className={styles.arrowDiv}>
+                    <h4>Employment</h4>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

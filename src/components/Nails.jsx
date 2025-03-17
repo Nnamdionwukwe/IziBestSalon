@@ -1,4 +1,4 @@
-import NailsComp from "../NailsComp";
+import NailsComp from "./NailsComp";
 import Footer from "./Footer";
 import NavBar from "./NavBar";
 

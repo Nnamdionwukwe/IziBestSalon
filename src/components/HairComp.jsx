@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./HairComp.module.css";
 
 export default function HairComp() {
@@ -452,21 +453,21 @@ export default function HairComp() {
       </div>
 
       <div className={styles.imageDiv}>
-        <div className={styles.imageDivImg1}>
+        <Link to="/hair" className={styles.imageDivImg1}>
           <img src={hair} />
-        </div>
+        </Link>
 
-        <div className={styles.imageDivImg2}>
+        <Link to="/nails" className={styles.imageDivImg2}>
           <img src={nails} />
-        </div>
+        </Link>
 
-        <div className={styles.imageDivImg3}>
+        <Link to="/face" className={styles.imageDivImg3}>
           <img src={face} />
-        </div>
+        </Link>
 
-        <div className={styles.imageDivImg4}>
+        <Link to="/body" className={styles.imageDivImg4}>
           <img src={body} />
-        </div>
+        </Link>
       </div>
     </div>
   );

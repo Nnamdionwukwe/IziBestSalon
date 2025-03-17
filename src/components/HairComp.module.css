@@ -34,6 +34,15 @@
     margin-bottom: 10px;
   }
 
+  .ourDiv3 {
+    margin-bottom: 6em;
+  }
+
+  .ourDiv3 p {
+    padding-right: 20px;
+    color: rgb(193, 193, 193);
+  }
+
   .ourDiv p {
     padding-right: 20px;
     color: rgb(193, 193, 193);
@@ -89,6 +98,16 @@
   .imageDiv {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    column-gap: 1px;
+    margin-bottom: -110px;
+  }
+
+  .img1 {
+    margin-bottom: -4px;
+  }
+
+  .imageDiv2 {
+    display: flex;
     column-gap: 1px;
     margin-bottom: -110px;
   }

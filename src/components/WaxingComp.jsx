@@ -10,24 +10,13 @@ export default function WaxingComp() {
       </div>
 
       <div>
-        <div className={styles.ourDiv}>
+        <div className={styles.ourDiv3}>
           <p>
             Our waxing technicians take the utmost care to protect the skin
             health and elasticity. The wax is applied warm, then removed with a
             gental technique, leaving skin absolutely smooth. This signature
             waxing technique is comfortable and result oriented.
           </p>
-        </div>
-
-        <div>
-          <div className={styles.blowDIv}>
-            <h5>Full Leg</h5>
-
-            <div className={styles.dollarDiv}>
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbwRsCU3zmRmsAQWF6XVNnncHI6zznIERJbQ5aCRMdOqiJSFVEkGkuv8DhRmgNZrcCVUc&usqp=CAU" />
-              <p>12,500</p>
-            </div>
-          </div>
         </div>
 
         <div>
@@ -195,7 +184,7 @@ export default function WaxingComp() {
           </div>
         </div>
 
-        <div className={styles.main2}>
+        <div className={styles.r}>
           <div className={styles.ourDiv2}>
             <p>
               *Due to industry trends, availability and pricing on all items are

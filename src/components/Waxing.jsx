@@ -1,7 +1,7 @@
 import NavBar from "./NavBar";
 import WaxingComp from "./WaxingComp";
 import Footer from "./Footer";
-import Navigation from "./Navigation";
+import WaxingNavigation from "./WaxingNavigation";
 
 export default function Waxing() {
   return (
@@ -10,7 +10,7 @@ export default function Waxing() {
 
       <WaxingComp />
 
-      <Navigation />
+      <WaxingNavigation />
 
       <Footer />
     </div>

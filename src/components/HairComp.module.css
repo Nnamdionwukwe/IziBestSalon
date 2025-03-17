@@ -26,6 +26,13 @@
     color: rgb(193, 193, 193);
   }
 
+  .ourDiv2 {
+    padding-right: 20px;
+    color: rgb(193, 193, 193);
+    margin-top: 5em;
+    margin-bottom: 8em;
+  }
+
   .blowDIv {
     display: flex;
     align-items: center;
@@ -50,5 +57,34 @@
 
   .dollarDiv p {
     columns: red;
+  }
+
+  .imageDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .imageDivImg1 {
+    width: 100%;
+  }
+
+  .imageDivImg2 {
+    width: 100%;
+  }
+
+  .imageDivImg3 {
+    width: 100%;
+    margin-top: -5px;
+  }
+
+  .imageDivImg4 {
+    width: 100%;
+    margin-top: -5px;
+  }
+
+  .imageDiv div img {
+    border-top-right-radius: 1px solid red;
+    width: 100%;
+    object-fit: cover;
   }
 }

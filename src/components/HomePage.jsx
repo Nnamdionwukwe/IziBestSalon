@@ -10,7 +10,7 @@ const steps = [
   "lash2.jpg",
   "lash1.jpg",
   "lash3.jpg",
-  "wax2.jpg",
+
   "wax4.jpg",
 ];
 
@@ -35,7 +35,7 @@ export default function HomePage() {
   const [step, setStep] = useState(1);
 
   function handleNext() {
-    if (step < 9) setStep(step + 1);
+    if (step < 8) setStep(step + 1);
   }
 
   function handlePrevious() {

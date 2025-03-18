@@ -107,6 +107,10 @@ export default function Hamburger() {
                 <Link to="/eyelash" className={styles.promo}>
                   <h4>Eyelash</h4>
                 </Link>
+
+                <Link to="/bridal" className={styles.promo}>
+                  <h4>Bridal</h4>
+                </Link>
               </div>
             </div>
           </div>

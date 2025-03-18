@@ -12,12 +12,13 @@ import Face from "./components/Face";
 import Body from "./components/Body";
 import Waxing from "./components/Waxing";
 import MakeUp from "./components/MakeUp";
-import EyeLash from "./components/EyeLash";
 
 import SpaParties from "./components/SpaParties";
 import Products from "./components/Products";
 import Employment from "./components/Employment";
 import PageNotFound from "./components/PageNotFound";
+import Lash from "./components/Lash";
+import Bridal from "./components/Bridal";
 
 function App() {
   return (
@@ -40,7 +41,8 @@ function App() {
           <Route path="body" element={<Body />} />
           <Route path="waxing" element={<Waxing />} />
           <Route path="makeup" element={<MakeUp />} />
-          <Route path="eyelash" element={<EyeLash />} />
+          <Route path="eyelash" element={<Lash />} />
+          <Route path="bridal" element={<Bridal />} />
 
           <Route path="spaparties" element={<SpaParties />} />
           <Route path="products" element={<Products />} />

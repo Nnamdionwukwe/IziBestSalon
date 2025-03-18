@@ -4,7 +4,7 @@ export default function SpaMain() {
   const image = "salon-logo.jpg";
 
   return (
-    <div className={styles.main}>
+    <div className={styles.main2}>
       <div className={styles.mainSub}>
         <img className={styles.logo} src={image} />
 

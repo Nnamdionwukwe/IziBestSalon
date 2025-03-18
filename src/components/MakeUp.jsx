@@ -1,16 +1,16 @@
 import NavBar from "./NavBar";
-import WaxingComp from "./WaxingComp";
 import Footer from "./Footer";
-import WaxingNavigation from "./WaxingNavigation";
+import MakeUpComp from "./MakeUpComp";
+import MakeUpNavigation from "./MakeUpNavigation";
 
 export default function MakeUp() {
   return (
     <div>
       <NavBar />
 
-      <WaxingComp />
+      <MakeUpComp />
 
-      <WaxingNavigation />
+      <MakeUpNavigation />
 
       <Footer />
     </div>

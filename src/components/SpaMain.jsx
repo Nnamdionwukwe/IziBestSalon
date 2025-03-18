@@ -9,7 +9,7 @@ export default function SpaMain() {
         <img className={styles.logo} src={image} />
 
         <div className={styles.mainDiv}>
-          <div className={styles.iziBest}>
+          <div className={styles.iziBest2}>
             <p>SPA PARTIES</p>
           </div>
 

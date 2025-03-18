@@ -9,6 +9,11 @@
     background-color: rgb(255, 251, 251);
     height: 650px;
     width: 100%;
+    margin-top: -50px;
+  }
+
+  .subMain {
+    padding-left: 60px;
   }
 
   .logo {
@@ -47,7 +52,17 @@
     color: rgb(66, 66, 66);
   }
 
-  .today p span {
+  .today2 {
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
+    margin-top: -15px;
+    font-size: 24px;
+    width: 80%;
+    color: rgb(66, 66, 66);
+  }
+
+  .today2 p span {
     color: rgb(32, 32, 32);
     font-style: italic;
   }

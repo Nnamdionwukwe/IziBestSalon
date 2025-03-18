@@ -14,7 +14,7 @@ export default function MakeUpNavigation() {
       <div className={styles.imageDivImg1}>
         <img className={styles.img1} src={body} />
 
-        <img src={hair} />
+        <img className={styles.img2} src={hair} />
       </div>
 
       <div className={styles.imageDivImg2}>

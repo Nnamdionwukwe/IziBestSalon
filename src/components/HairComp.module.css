@@ -106,6 +106,10 @@
     margin-bottom: -5.5px;
   }
 
+  .img2 {
+    margin-top: -3px;
+  }
+
   .imageDiv2 {
     display: flex;
     column-gap: 1px;

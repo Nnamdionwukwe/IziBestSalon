@@ -36,10 +36,12 @@ export default function HomePage() {
 
   function handleNext() {
     if (step < 8) setStep(step + 1);
+    if (step >= 8) setStep(1);
   }
 
   function handlePrevious() {
     if (step > 1) setStep(step - 1);
+    if (step <= 1) setStep(8);
   }
 
   return (

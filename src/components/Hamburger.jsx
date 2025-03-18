@@ -7,9 +7,15 @@ export default function Hamburger() {
   const [isOpen2, setIsOpen2] = useState(false);
   const [isOpen3, setIsOpen3] = useState(false);
 
+  function handleClose() {
+    setIsOpen((is) => !is);
+    setIsOpen2(false);
+    setIsOpen3(false);
+  }
+
   return (
     <div className={styles.ham}>
-      <div className={styles.hamImg} onClick={() => setIsOpen((is) => !is)}>
+      <div className={styles.hamImg} onClick={() => handleClose()}>
         {!isOpen ? (
           <i className="fa fa-bars" aria-hidden="true"></i>
         ) : (

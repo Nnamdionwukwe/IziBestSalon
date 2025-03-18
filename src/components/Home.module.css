@@ -33,6 +33,11 @@
     color: rgb(66, 66, 66);
   }
 
+  .today p span {
+    color: black;
+    font-style: italic;
+  }
+
   .iziImg {
     display: grid;
     grid-template-columns: 1fr 1fr;

@@ -4,7 +4,6 @@ export default function BridalNavigation() {
   const hair = "bridal1.jpg";
   const wax5 = "bridal2.jpg";
   const nails = "bridal3.jpg";
-  const face = "bridal4.jpg";
   const body = "bridal5.jpg";
   const wax6 = "bridal6.jpg";
 

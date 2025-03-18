@@ -3,19 +3,15 @@ import HomeNavBar from "./HomeNavBar";
 import styles from "./HomePage.module.css";
 
 const steps = [
-  "box2.jpg",
-  "box1.jpg",
-  "box 3.jpg",
-  "cut1.jpg",
-  "cut2.jpg",
-  "cut3.jpg",
-  "ghana1.jpg",
-  "ghana2.jpg",
-  "ghana4.jpg",
-  "install1.jpg",
-  "install2.jpg",
-  "install3.jpg",
-  "install4.jpg",
+  "bridal1.jpg",
+  "bridal3.jpg",
+  "bridal4.jpg",
+  "bridal5.jpg",
+  "lash2.jpg",
+  "lash1.jpg",
+  "lash3.jpg",
+  "wax2.jpg",
+  "wax4.jpg",
 ];
 
 export default function HomePage() {
@@ -39,7 +35,7 @@ export default function HomePage() {
   const [step, setStep] = useState(1);
 
   function handleNext() {
-    if (step < 13) setStep(step + 1);
+    if (step < 9) setStep(step + 1);
   }
 
   function handlePrevious() {

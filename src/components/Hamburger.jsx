@@ -36,33 +36,29 @@ export default function Hamburger() {
                   <h4 className={styles.home}>Home</h4>
                 </Link>
 
-                <Link className={styles.home} to="/homepage">
+                <Link className={styles.home} to="/izilifestyle">
                   <h4 className={styles.home}>Izi Lifestyle</h4>
                 </Link>
 
-                <div>
-                  <Link className={styles.arrowDiv}>
-                    <h4 onClick={() => setIsOpen2(true)}>Services</h4>
-                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-                  </Link>
+                <div className={styles.arrowDiv}>
+                  <h4 onClick={() => setIsOpen2(true)}>Services</h4>
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>
                 </div>
 
-                <div>
-                  <Link className={styles.arrowDiv}>
-                    <h4 onClick={() => setIsOpen3(true)}>About</h4>
-                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-                  </Link>
+                <div className={styles.arrowDiv}>
+                  <h4 onClick={() => setIsOpen3(true)}>About</h4>
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>
                 </div>
 
                 <Link to="/promotions" className={styles.promo}>
                   <h4>Promotions</h4>
                 </Link>
 
-                <Link to="lookbooks" className={styles.promo}>
+                <Link to="/lookbook" className={styles.promo}>
                   <h4>Lookbook</h4>
                 </Link>
 
-                <Link to="contacts" className={styles.promo}>
+                <Link to="/contacts" className={styles.promo}>
                   <h4>Contacts</h4>
                 </Link>
               </div>

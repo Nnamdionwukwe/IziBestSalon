@@ -25,13 +25,13 @@ function App() {
     <div className={styles.app}>
       <BrowserRouter>
         <Routes>
-          <Route path="/homepage" element={<Home />} />
+          <Route path="/izilifestyle" element={<Home />} />
 
           <Route index path="/" element={<HomePage />} />
 
           <Route path="promotions" element={<Promotions />} />
 
-          <Route path="lookbooks" element={<LookBooks />} />
+          <Route path="lookbook" element={<LookBooks />} />
 
           <Route path="contacts" element={<Contacts />} />
 

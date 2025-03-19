@@ -22,8 +22,7 @@ export default function Main3() {
 
             <div className={styles.today}>
               <p>
-                Sign up to receive access to monthly specials and exclusive
-                offers.
+                Sign up to receive access to monthly specials and exclusive d.
               </p>
             </div>
           </div>

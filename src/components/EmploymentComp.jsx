@@ -12,7 +12,7 @@ export default function EmploymentComp() {
           We are located at Chandellux Imperial Hotel & Suits, with staff that
           counts some of the employees with over 5 years of experience. We are
           always looking for creative, honest and ambitious people to fulfill
-          our clients demand and extend our current offerings.
+          our clients demand and extend our current offerings .
         </p>
       </div>
 

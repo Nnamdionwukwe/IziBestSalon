@@ -4,12 +4,12 @@ import SpaMain from "./SpaMain";
 
 export default function SpaParties() {
   return (
-    <h1>
+    <div>
       <NavBar />
 
       <SpaMain />
 
       <Footer />
-    </h1>
+    </div>
   );
 }

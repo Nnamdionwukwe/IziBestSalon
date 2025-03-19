@@ -1,5 +1,5 @@
 import Footer from "./Footer";
-import Main2 from "./Main2";
+import Main3 from "./Main3";
 import NavBar from "./NavBar";
 
 export default function Contacts() {
@@ -7,7 +7,7 @@ export default function Contacts() {
     <h1>
       <NavBar />
 
-      <Main2 />
+      <Main3 />
 
       <Footer />
     </h1>

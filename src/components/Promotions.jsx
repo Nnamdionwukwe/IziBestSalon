@@ -1,10 +1,16 @@
 import NavBar from "./NavBar";
+import styles from "./Home.module.css";
+import Footer from "./Footer";
+import Main2 from "./Main2";
 
 export default function Promotions() {
   return (
-    <h1>
+    <div className={styles.mainMain}>
       <NavBar />
-      Promotions
-    </h1>
+
+      <Main2 />
+
+      <Footer />
+    </div>
   );
 }

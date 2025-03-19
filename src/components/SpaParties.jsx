@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 import NavBar from "./NavBar";
 import SpaMain from "./SpaMain";
 
@@ -7,6 +8,8 @@ export default function SpaParties() {
       <NavBar />
 
       <SpaMain />
+
+      <Footer />
     </h1>
   );
 }

@@ -1,0 +1,81 @@
+@media screen and (min-width: 100px) {
+  .main {
+    background-color: rgb(255, 251, 251);
+    height: 600px;
+    width: 100%;
+  }
+
+  .mainDiv {
+    margin-top: 0px;
+    width: 100%;
+  }
+
+  .logo {
+    margin-top: 5px;
+    width: 100%;
+  }
+
+  .today {
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
+    margin-top: -15px;
+    font-size: 24px;
+    width: 80%;
+    color: rgb(66, 66, 66);
+  }
+
+  .iziBest {
+    display: flex;
+    width: 100%;
+    font-style: italic;
+    color: rgb(97, 97, 97);
+  }
+
+  .iziBest p {
+    display: flex;
+    justify-content: left;
+    padding-left: 60px;
+  }
+
+  .inputMain {
+    padding: 0px 40px 0px 60px;
+  }
+
+  .inputP1 {
+    margin-bottom: -20px;
+  }
+
+  .inputP2 {
+    margin-bottom: 5px;
+  }
+
+  .inputP3 {
+    margin-top: 30px;
+  }
+
+  .inputDiv input {
+    width: 100%;
+    height: 30px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+
+  .subscribeDiv p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    border: 2px solid rgb(22, 21, 21);
+    margin-top: 30px;
+    font-family: "Courier New", Courier, monospace;
+  }
+
+  .subscribeDiv p:hover {
+    background-color: black;
+    color: white;
+    transition: 2s;
+  }
+}

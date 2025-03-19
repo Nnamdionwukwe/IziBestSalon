@@ -5,16 +5,16 @@ export default function SpaMain() {
 
   return (
     <div>
-      <div className={styles.main2}>
-        <div className={styles.mainSub2}>
+      <div className={styles.main}>
+        <div className={styles.mainSub}>
           <img className={styles.logo} src={image} />
 
           <div className={styles.mainDiv}>
-            <div className={styles.iziBest2}>
-              <p>SPA PARTIES</p>
+            <div className={styles.iziBest}>
+              <p>SPA PARTIES </p>
             </div>
 
-            <div className={styles.today2}>
+            <div className={styles.today}>
               <p>
                 Discover the good life. Hit the pause button and indulge
                 together. Make any occasion
@@ -24,10 +24,6 @@ export default function SpaMain() {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className={styles.subMain}>
-        <h5>A Spa Party is a real treat for your loved ones.</h5>
       </div>
     </div>
   );

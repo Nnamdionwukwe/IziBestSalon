@@ -1,5 +1,4 @@
 import Hamburger from "./Hamburger";
-import SalonLogo from "./SalonLogo";
 import styles from "./NavBar.module.css";
 import HomeLogo from "./HomeLogo";
 

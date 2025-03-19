@@ -1,5 +1,4 @@
 import { useState } from "react";
-import HomeNavBar from "./HomeNavBar";
 import styles from "./HomePage.module.css";
 import NavBar from "./NavBar";
 

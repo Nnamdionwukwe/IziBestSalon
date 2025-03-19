@@ -17,13 +17,14 @@ export default function Main3() {
 
           <div className={styles.mainDiv}>
             <div className={styles.iziBest}>
-              <p>UPDATES</p>
+              <p>CONTACT</p>
             </div>
 
             <div className={styles.today}>
               <p>
-                Sign up to receive access to monthly specials and exclusive
-                offers.
+                Discover the good life. Come and enjoy the{" "}
+                <span>utimate look transformation</span>
+                experience at Izi Lifestlye Salon.
               </p>
             </div>
           </div>

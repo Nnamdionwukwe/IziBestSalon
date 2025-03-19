@@ -5,6 +5,12 @@
     width: 100%;
   }
 
+  .main3 {
+    background-color: rgb(255, 251, 251);
+    height: 500px;
+    width: 100%;
+  }
+
   .mainDiv {
     margin-top: 0px;
     width: 100%;
@@ -31,8 +37,13 @@
     margin-left: 60px;
     margin-top: -15px;
     font-size: 23px;
-    width: 80%;
+    width: 60%;
     color: rgb(66, 66, 66);
+  }
+
+  .today2 p span {
+    font-style: italic;
+    color: black;
   }
 
   .iziBest {
@@ -53,7 +64,7 @@
     display: flex;
     justify-content: left;
     padding-left: 60px;
-    font-family: "Courier New", Courier, monospace;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
 
   .iziBest2 p {
@@ -102,5 +113,42 @@
     background-color: black;
     color: white;
     transition: 2s;
+  }
+
+  .location {
+    font-size: 13px;
+    margin-top: 50px;
+    font-family: 50px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+
+  .email {
+    font-size: 13px;
+    margin-top: 40px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+
+  .add {
+    font-size: 14px;
+    margin-top: 50px;
+  }
+
+  .add3 {
+    font-size: 14px;
+    margin-top: 25px;
+  }
+
+  .add2 {
+    font-size: 10px;
+    margin-top: -10px;
+  }
+
+  .mon {
+    font-size: 12px;
+    margin-bottom: 12px;
+    margin-top: -10px;
+    color: gray;
   }
 }

@@ -16,15 +16,15 @@ export default function Main3() {
           <img className={styles.logo} src={image} />
 
           <div className={styles.mainDiv}>
-            <div className={styles.iziBest}>
+            <div className={styles.iziBest2}>
               <p>CONTACT</p>
             </div>
 
-            <div className={styles.today}>
+            <div className={styles.today2}>
               <p>
                 Discover the good life. Come and enjoy the{" "}
-                <span>utimate look transformation</span>
-                experience at Izi Lifestlye Salon.
+                <span> utimate look transformation</span> experience at Izi
+                Lifestlye Salon.
               </p>
             </div>
           </div>

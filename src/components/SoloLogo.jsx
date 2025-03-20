@@ -1,5 +1,4 @@
-// import styles from "./main2.module.css";
-import styles from "./Approach.module.css";
+import styles from "./main2.module.css";
 
 export default function SoloLogo() {
   const image = "salon-logo.jpg";

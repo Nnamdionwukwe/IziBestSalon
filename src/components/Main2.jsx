@@ -1,6 +1,5 @@
 import { useState } from "react";
-// import styles from "./Main2.module.css";
-import styles from "./Approach.module.css";
+import styles from "./Main2.module.css";
 
 export default function Main2() {
   const [email, setEmail] = useState("");

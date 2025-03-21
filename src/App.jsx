@@ -29,7 +29,7 @@ function App() {
 
           <Route index path="/" element={<HomePage />} />
 
-          <Route path="promotions" element={<Promotions />} />
+          {/* <Route path="promotions" element={<Promotions />} /> */}
 
           <Route path="lookbook" element={<LookBooks />} />
 

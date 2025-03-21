@@ -11,7 +11,7 @@ export default function Main3() {
 
           <div className={styles.mainDiv}>
             <div className={styles.iziBest4}>
-              <p>CONTACT</p>
+              <p className={styles.iziP}>CONTACT</p>
             </div>
 
             <div className={styles.today2}>

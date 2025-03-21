@@ -212,8 +212,16 @@
     color: rgb(97, 97, 97);
   }
 
+  .iziBest4 {
+    display: flex;
+    width: 100%;
+    font-style: italic;
+    color: rgb(97, 97, 97);
+  }
+
   .iziBest2 {
     display: flex;
+    justify-content: left;
     width: 100%;
     font-style: italic;
     color: rgb(97, 97, 97);
@@ -222,14 +230,21 @@
   .iziBest p {
     display: flex;
     justify-content: left;
-    padding-left: 60px;
+    margin-left: -300px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+
+  .iziBest4 p {
+    display: flex;
+    justify-content: left;
+    margin-left: 60px;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
 
   .iziBest2 p {
     display: flex;
     justify-content: left;
-    padding-left: 60px;
+    padding-left: -300px;
     font-size: 15px;
   }
 

@@ -20,7 +20,7 @@ export default function EmploymentComp() {
 
       <li>Hair Stylist</li>
       <li>Natural Hair Stylist</li>
-      <li>Pdicurist / Manicurist</li>
+      <li>Pedicurist / Manicurist</li>
       <li>Braider</li>
       <li>Massage Therapists</li>
     </div>

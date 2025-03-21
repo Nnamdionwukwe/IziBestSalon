@@ -1,4 +1,4 @@
-import styles from "./Main2.module.css";
+import styles from "./Home.module.css";
 
 export default function Main3() {
   const image = "salon-logo.jpg";

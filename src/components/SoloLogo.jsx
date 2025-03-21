@@ -1,4 +1,4 @@
-import styles from "./main2.module.css";
+import styles from "./Main2.module.css";
 
 export default function SoloLogo() {
   const image = "salon-logo.jpg";

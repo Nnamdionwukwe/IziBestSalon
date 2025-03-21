@@ -14,27 +14,6 @@
     width: 100%;
   }
 
-  .mainDiv {
-    margin-top: 0px;
-    width: 100%;
-  }
-
-  .iziBest {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    font-style: italic;
-    color: rgb(97, 97, 97);
-  }
-
-  .iziBest2 {
-    padding-left: 62px;
-    width: 100%;
-    font-style: italic;
-    color: rgb(97, 97, 97);
-    font-size: 16px;
-  }
-
   .today {
     display: flex;
     justify-content: center;
@@ -221,7 +200,7 @@
 
   .iziBest2 {
     display: flex;
-    justify-content: left;
+    justify-content: ;
     width: 100%;
     font-style: italic;
     color: rgb(97, 97, 97);
@@ -229,8 +208,8 @@
 
   .iziBest p {
     display: flex;
-    justify-content: left;
-    margin-left: -300px;
+    justify-content: ;
+    margin-left: 160px;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
 

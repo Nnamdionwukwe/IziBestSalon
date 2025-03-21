@@ -10,7 +10,7 @@ export default function Main3() {
           <img className={styles.logo} src={image} />
 
           <div className={styles.mainDiv}>
-            <div className={styles.iziBest2}>
+            <div className={styles.iziBest4}>
               <p>CONTACT</p>
             </div>
 

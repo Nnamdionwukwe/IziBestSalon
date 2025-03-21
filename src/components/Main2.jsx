@@ -15,7 +15,7 @@ export default function Main2() {
           <img className={styles.logo} src={image} />
 
           <div className={styles.mainDiv}>
-            <div className={styles.iziBest}>
+            <div className={styles.iziBest4}>
               <p>UPDATES</p>
             </div>
 

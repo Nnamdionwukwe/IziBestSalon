@@ -137,6 +137,10 @@
   .new {
   }
 
+  .main0 {
+    margin: 70px 40px 70px 60px;
+  }
+
   .main {
     background-color: rgb(255, 251, 251);
     height: 600px;

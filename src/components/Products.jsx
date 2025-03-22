@@ -11,7 +11,7 @@ export default function Products() {
         <div className={styles.mainSub}>
           <div className={styles.mainDiv}>
             <div>
-              <h4 className={styles.mainPara}>PRODUCCT SELECTION </h4>
+              <h4 className={styles.mainPara}>PRODUCT SELECTION </h4>
             </div>
 
             <div className={styles}>

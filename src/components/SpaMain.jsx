@@ -28,11 +28,13 @@ export default function SpaMain() {
 
       <div className={styles.main0}>
         <div>
-          <h3>A SPA PARTY IS A REAL TREAT FOR YOUR LOVED ONES</h3>
+          <h4 className={styles.mainPara}>
+            A SPA PARTY IS A REAL TREAT FOR YOUR LOVED ONES
+          </h4>
         </div>
 
         <div>
-          <p>
+          <p className={styles.mainPara1}>
             Bridal showers, employee retreats, birthdays and teens spa parties
             are among the top 10 trends in spa and salon services. The
             treatments are hand picked and customized to accommodate the needs
@@ -40,19 +42,67 @@ export default function SpaMain() {
             “express” versions of regular treatments.
           </p>
 
-          <p>
+          <h5 className={styles.mainPara2}>
             Our rates are based on the number of guests, the number of
             treatments and how long the spa party runs. Please tell us your
             budget and number of guests, and we will be happy to work out a
             package that suits your specific needs. We recommend that you call
             us at least 1 month prior to event, as that will give us a time to
             arrange to our regular working schedule.
-          </p>
+          </h5>
 
-          <p>
+          <h5 className={styles.mainPara2}>
             To schedule, please call the Izi Lifestyle Salon at +234 803 0588
             774 or email to izilifestyle.gmail.com
-          </p>
+          </h5>
+        </div>
+      </div>
+
+      <div className={styles.main0}>
+        <div className={styles.bride}>
+          <i class="fa fa-diamond" aria-hidden="true"></i>
+
+          <h5 className={styles.bridePara}>BRIDAL SHOWERS</h5>
+          <h5 className={styles.mainPara2}>
+            At Izi Lifestyle, we'll make sure you look & feel as elegant &
+            unforgettable as you should on your wedding day. With our wide range
+            of salon and spa services, you'll find everything you need for
+            ultimate glamour on your special day.
+          </h5>
+        </div>
+
+        <div className={styles.bride}>
+          <i class="fa fa-bolt" aria-hidden="true"></i>
+
+          <h5 className={styles.bridePara}>EMPLOYEE RETREATS</h5>
+          <h5 className={styles.mainPara2}>
+            Let us help you plan your next corporate group event. The perfect
+            corporate retreat at Izi Lifestyle transforms your group to see new
+            possibilities, make connections and emerge recharged and
+            enthusiastic.
+          </h5>
+        </div>
+
+        <div className={styles.bride}>
+          <i class="fa fa-birthday-cake" aria-hidden="true"></i>
+
+          <h5 className={styles.bridePara}>BIRTHDAYS</h5>
+          <h5 className={styles.mainPara2}>
+            Ready for a memorable day of fun? There's nothing like a relaxing
+            escape with your best friends or family to celebrate a special day.
+            Choose a delightful, rejuvenating experience at Izi Lifestyle.
+          </h5>
+        </div>
+
+        <div className={styles.bride}>
+          <i class="fa fa-bomb" aria-hidden="true"></i>
+
+          <h5 className={styles.bridePara}>TEENS SPA PARTY</h5>
+          <h5 className={styles.mainPara2}>
+            A spa atmosphere full of fun, relaxation and pampering - just for
+            you and your friends! Each party is customized to meet all your
+            unique party needs.
+          </h5>
         </div>
       </div>
     </div>

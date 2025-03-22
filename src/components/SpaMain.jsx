@@ -18,7 +18,10 @@ export default function SpaMain() {
               <p>
                 Discover the good life. Hit the pause button and indulge
                 together. Make any occasion
-                <span> big, small or spontaneous,</span>
+                <span className={styles.spanP}>
+                  {" "}
+                  big, small or spontaneous,
+                </span>
                 {""} something amazing.
               </p>
             </div>

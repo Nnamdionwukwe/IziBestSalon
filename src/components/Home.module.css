@@ -334,6 +334,12 @@
   .bridePara {
     margin-bottom: -10px;
   }
+
+  .spanP {
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+  }
 }
 
 @media screen and (min-width: 577px) {

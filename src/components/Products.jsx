@@ -1,5 +1,6 @@
 import NavBar from "./NavBar";
 import styles from "./Home.module.css";
+import Footer from "./Footer";
 
 export default function Products() {
   return (
@@ -31,6 +32,8 @@ export default function Products() {
           </div>
         </div>
       </div>
+
+      <Footer />
     </div>
   );
 }

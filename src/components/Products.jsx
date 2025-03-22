@@ -16,7 +16,7 @@ export default function Products() {
 
             <div className={styles}>
               <p className={styles.mainPara1}>
-                At the Izi Lifestyle Salon you will find carefully selected
+                At Izi Lifestyle Salon you will find carefully selected
                 professional care products for hair, body, nails, face, and
                 skin.
               </p>

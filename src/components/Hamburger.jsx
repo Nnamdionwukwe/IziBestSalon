@@ -25,21 +25,21 @@ export default function Hamburger() {
 
       <div className={styles.life}>
         <p>
-          <Link to="/body">
+          <Link className={styles.lin} to="/body">
             <span>y</span>
             <span>d</span>
             <span>o</span>
             <span>b</span>
           </Link>
           <span>.</span>
-          <Link to="/face">
+          <Link className={styles.lin} to="/face">
             <span>e</span>
             <span>c</span>
             <span>a</span>
             <span>f</span>
           </Link>
           <span>.</span>
-          <Link to="/nails">
+          <Link className={styles.lin} to="/nails">
             <span>s</span>
             <span>l</span>
             <span>i</span>
@@ -47,14 +47,14 @@ export default function Hamburger() {
             <span>n</span>
           </Link>
           <span>.</span>
-          <Link to="/hair">
+          <Link className={styles.lin} to="/hair">
             <span>r</span>
             <span>i</span>
             <span>a</span>
             <span>h</span>
           </Link>
           <span>\</span>
-          <Link to="/izilifestyle">
+          <Link className={styles.lin} to="/izilifestyle">
             <span>i</span>
             <span>z</span>
             <span>i</span>

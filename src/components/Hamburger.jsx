@@ -23,6 +23,45 @@ export default function Hamburger() {
         )}
       </div>
 
+      <div className={styles.life}>
+        <p>
+          <Link to="/body">
+            <span>y</span>
+            <span>d</span>
+            <span>o</span>
+            <span>b</span>
+          </Link>
+          <span>.</span>
+          <Link to="/face">
+            <span>e</span>
+            <span>c</span>
+            <span>a</span>
+            <span>f</span>
+          </Link>
+          <span>.</span>
+          <Link to="/nails">
+            <span>s</span>
+            <span>l</span>
+            <span>i</span>
+            <span>a</span>
+            <span>n</span>
+          </Link>
+          <span>.</span>
+          <Link to="/hair">
+            <span>r</span>
+            <span>i</span>
+            <span>a</span>
+            <span>h</span>
+          </Link>
+          <span>\</span>
+          <Link to="/izilifestyle">
+            <span>i</span>
+            <span>z</span>
+            <span>i</span>
+          </Link>
+        </p>
+      </div>
+
       <>
         {isOpen && (
           <div className={styles.nav}>

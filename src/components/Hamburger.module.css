@@ -78,10 +78,25 @@
     margin-left: -1px;
     cursor: pointer;
   }
+
+  .life p {
+  }
 }
 
-@media screen and (max-height: 650px) {
-  .ham i {
-    color: ;
+@media screen and (max-height: 880px) {
+  .life p span {
+    display: block;
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(7, 7, 7);
+  }
+
+  .life {
+    margin-left: 28px;
+    margin-bottom: -220px;
+  }
+
+  .life p Link {
+    text-decoration: none;
   }
 }

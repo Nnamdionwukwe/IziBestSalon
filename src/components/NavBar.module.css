@@ -19,9 +19,39 @@
 
   .navBar:hover {
     background-color: rgb(250, 247, 247);
+    transition: 1.5s;
   }
 
   .homeNavBar:hover {
     background-color: rgb(250, 247, 247);
+    transition: 1.5s;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .homeNavBar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 5;
+    padding-right: 25px;
+    padding-left: 15px;
+    padding-top: 60px;
+  }
+}
+
+@media screen and (min-width: 890px) {
+  .homeNavBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 5;
+    padding-right: 30px;
+    padding-top: 40px;
   }
 }
